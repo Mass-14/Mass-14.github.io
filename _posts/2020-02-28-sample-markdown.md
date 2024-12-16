@@ -10,6 +10,33 @@ mathjax: true
 author: Bill Smith
 ---
 
+
+
+#Introduction
+##Explication de thèmes
+##Présentation de nous
+##Datasets
+#Extraction de thèmes
+##Fréquence des thèmes dans les movies et news
+###Corrélation entre les deux
+###Analyse de temporalité (à quel point est-ce que les films et les news sont proches)
+##Analyse des genres et sentiments par thème dans les news
+###Analyse de temporalité
+#Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+# TODO delete below  
 {: .box-success}
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
 
