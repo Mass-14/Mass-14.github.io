@@ -27,7 +27,7 @@ This message will self-destruct.
 
 
 Right chief you can count on us!  
-We will detect important topics with my GOGO-GADGET-Topic-Modeling in both the CMU dataset and a news article dataset from the New York Times. From that, we will be able to compare the representation of these topics over time.
+We will detect important topics **__GOGO GADGET Topic Modeling__** in both the CMU dataset and a news article dataset from the New York Times. From that, we will be able to compare the representation of these topics over time.
 
 
 <br> 
