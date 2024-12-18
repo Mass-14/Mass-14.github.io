@@ -23,7 +23,6 @@ Your goal is to determine how societal issues are present in movies and how this
 <br>
 You have to examine their potential correlations and how they may appear shifted in time.
 
-<br>
 
 {: .box-error}
 This message will self-destruct.
