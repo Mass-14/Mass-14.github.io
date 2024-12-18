@@ -12,17 +12,17 @@ author: Bill Smith
 
 
 
-## Introduction
-### Explication de thèmes
-### Présentation de nous
-### Datasets
-## Extraction de thèmes
-### Fréquence des thèmes dans les movies et news
-#### Corrélation entre les deux
-#### Analyse de temporalité (à quel point est-ce que les films et les news sont proches)
-### Analyse des genres et sentiments par thème dans les news
-#### Analyse de temporalité
-## Conclusion
+# Introduction
+## Explication de thèmes
+## Présentation de nous
+## Datasets
+# Extraction de thèmes
+## Fréquence des thèmes dans les movies et news
+### Corrélation entre les deux
+### Analyse de temporalité (à quel point est-ce que les films et les news sont proches)
+## Analyse des genres et sentiments par thème dans les news
+### Analyse de temporalité
+# Conclusion
 
 
 
