@@ -22,12 +22,10 @@ Use the CMU Movie Summary Corpus, which includes data from over 42000 movies.
 Your goal is to determine how societal issues are present in movies and how this presence evolves in comparison to the same topics in news articles.  
 <br>
 You have to examine their potential correlations and how they may appear shifted in time.
-
-
-{: .box-error}
+<br> <br>
 This message will self-destruct.
 
-<br> 
+
 Right chief you can count on us!  
 We will detect important topics with my GOGO-GADGET-Topic-Modeling in both the CMU dataset and a news article dataset from the New York Times. From that, we will be able to compare the representation of these topics over time.
 
