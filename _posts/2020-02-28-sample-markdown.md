@@ -16,8 +16,11 @@ author: Bill Smith
 
 {: .box-mission}
 Movies often reflect the culture and society of a certain time and represent topics people are interested in. Your mission is to explore how the themes and topics of movies have evolved over time, correlating them with trends observed in newspapers.  
+<br>
 Use the CMU Movie Summary Corpus, which includes data from over 42000 movies.  
+<br>
 Your goal is to determine how societal issues are present in movies and how this presence evolves in comparison to the same topics in news articles.  
+<br>
 You have to examine their potential correlations and how they may appear shifted in time.
 
 <br> 
