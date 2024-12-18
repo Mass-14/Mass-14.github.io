@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: minimal
 title: inspector gADAdget
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll

@@ -8,5 +8,5 @@ layout: null
 
 .box-mission {
   background-color: #e0c9a6;
-  border: 4px solid #8f7644;
+  border-left-color: 4px ridge #8f7644;
 }
