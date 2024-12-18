@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Sample blog post to learn markdown tips
+layout: base
+title: inspector gADAdget
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
