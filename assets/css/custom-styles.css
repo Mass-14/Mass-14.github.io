@@ -8,7 +8,6 @@ layout: null
 
 .box-mission {
   background-color: #e0c9a6;
-  border-width: 0.25rem;
-  border-radius: 0.1875rem;
-  border-color: #8f7644;
+
+  border-left: 0.3125rem solid #8f7644;
 }
