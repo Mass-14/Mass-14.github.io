@@ -13,28 +13,66 @@ author: Bill Smith
 
 
 # Introduction
-## Explication de thèmes
-## Présentation de nous
+
+
+<br> 
+
+## Themes explanation 
+
+
+<br>
+
+## The inspectors
+
+
+<br>
+
 ## Datasets
-# Extraction de thèmes
-## Fréquence des thèmes dans les movies et news
-### Corrélation entre les deux
-### Analyse de temporalité (à quel point est-ce que les films et les news sont proches)
-## Analyse des genres et sentiments par thème dans les news
-### Analyse de temporalité
+
+
+<br>
+
+# Themes extraction 
+
+
+<br>
+
+## Themes frequency in movies and news
+
+
+<br>
+
+### Correlation between frequencies
+
+
+
+<br>
+
+### Analyse de temporalité (à quel point est-ce que les films et les news sont proches) RENAME OR MERGE WITH PREVIOUS ?
+
+
+<br>
+
+## Analyse of genres and feelings per theme in the news  
+
+<br>
+
+### Analyse of temporality
+
+
+<br>
+
 # Conclusion
 
 
+<br>
 
 
 
 
 
 
-
-
-
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # TODO delete below  
 {: .box-success}
