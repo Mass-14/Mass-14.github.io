@@ -1,6 +1,6 @@
 ---
 layout: default
-title: inspector gADAdget
+title: inspector gADAget
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
