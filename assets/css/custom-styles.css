@@ -4,11 +4,17 @@ layout: null
 
 @import url("pygment_highlights.css");
 
-.box-mission
+.box-mission{
+  padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
+  margin: 1.25rem 1.25rem 1.25rem 0.3125rem;
+  border: 1px solid #eee;
+  border-left-width: 0.3125rem;
+  border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
+}
 
 .box-mission {
   background-color: #e0c9a6;
 
   /* padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem; */
-  /* border-left: 0.3125rem solid #8f7644; */
+  border-left-color: #8f7644;
 }
