@@ -9,5 +9,6 @@ layout: null
 .box-mission {
   background-color: #e0c9a6;
 
-  border-left: 0.3125rem solid #8f7644;
+  padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
+  /* border-left: 0.3125rem solid #8f7644; */
 }
