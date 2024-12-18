@@ -953,8 +953,7 @@ pre {
   border: 1px solid #eee;
   border-left-width: 0.3125rem;
   border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
-}, 
-.box-mission
+}
 
 .box-note {
   background-color: #eee;
@@ -974,11 +973,6 @@ pre {
 .box-success {
   background-color: #98FB98;
   border-left-color: #3CB371;
-}
-
-.box-mission {
-  background-color: #e0c9a6;
-  border-color: #8f7644;
 }
 
 /* --- Misc blog post styles --- */
