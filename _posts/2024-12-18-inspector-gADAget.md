@@ -29,6 +29,10 @@ This message will self-destruct.
 Right chief you can count on us!  
 We will detect important topics **GOGO GADGET Topic Modeling** in both the CMU dataset and a news article dataset from the New York Times. From that, we will be able to compare the representation of these topics over time.
 
+First, lets decribe the datasets our chief gave us to accomplish our difficult mission.
+A first dataset is the CMU Movies Summary Corpus dataset. The movies metadata seemed to be of great interest for our mission. It contains 81’741 movies up to 2012 . It adds the movies names, the dates of release, the countries and the genres to our toolkit. We have also access to the plot summaries of 42’306 movies, perfect to detect relevant topics !  
+The second one as our disposition is a dataset from the New York times obtained from kaggle: https://www.kaggle.com/datasets/tumanovalexander/nyt-articles-data. The dataset is big and covers the year, title and and excerpt of news from 1920-2020. It certainly offers a valuable resource to analyze the presence of themes over the years. 
+
 
 <br> 
 
