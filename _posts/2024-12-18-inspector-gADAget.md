@@ -40,6 +40,8 @@ We will detect important topics **GOGO GADGET Topic Modeling** in both the CMU d
 
 ## The inspectors
 
+![Clémentine](/assets/img/IG_perso_patins-giro.png){: .mx-auto.d-block :}
+
 
 <br>
 
