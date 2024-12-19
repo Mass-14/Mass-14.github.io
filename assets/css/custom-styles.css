@@ -16,3 +16,8 @@ layout: null
   background-color: #d6c7a9;
   border-color: #bea677;
 }
+
+
+.navbar-custom.top-nav-regular .avatar-container .avatar-img {
+  width: 200%;
+}
