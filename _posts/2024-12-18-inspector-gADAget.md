@@ -119,13 +119,18 @@ Now we are ready to investigate for our mission through data analysis!
 
 <div class="tab-container">
   <ul class="tabs">
-    <li class="tab active" onclick="openTab(event, 'tab1')">Tab 1</li>
-    <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
-    <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
+    <li class="tab active" onclick="openTab(event, 'tab1')">Health</li>
+    <li class="tab" onclick="openTab(event, 'tab2')">Gender Equality</li>
+    <li class="tab" onclick="openTab(event, 'tab3')">Technology</li>
+    <li class="tab" onclick="openTab(event, 'tab4')">WWII</li>
+    <li class="tab" onclick="openTab(event, 'tab5')">Cold War</li>
+    <li class="tab" onclick="openTab(event, 'tab6')">Vietnam War</li>
   </ul>
 
   <div id="tab1" class="tab-content active">
-    <h2>Content for Tab 1</h2>
+
+    ### markdown test
+    
     <p>This is the content for the first tab.</p>
   </div>
 
@@ -135,6 +140,21 @@ Now we are ready to investigate for our mission through data analysis!
   </div>
 
   <div id="tab3" class="tab-content">
+    <h2>Content for Tab 3</h2>
+    <p>This is the content for the third tab.</p>
+  </div>
+  
+  <div id="tab4" class="tab-content">
+    <h2>Content for Tab 3</h2>
+    <p>This is the content for the third tab.</p>
+  </div>  
+  
+  <div id="tab5" class="tab-content">
+    <h2>Content for Tab 3</h2>
+    <p>This is the content for the third tab.</p>
+  </div>  
+  
+  <div id="tab6" class="tab-content">
     <h2>Content for Tab 3</h2>
     <p>This is the content for the third tab.</p>
   </div>

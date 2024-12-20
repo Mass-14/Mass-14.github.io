@@ -9,101 +9,78 @@ comments: true
 mathjax: true
 author: Bill Smith
 
-tabs:
-  - title: Tab 1
-    content: >
-      This is the content for **Tab 1**. You can include HTML or Markdown here.
-  - title: Tab 2
-    content: >
-      This is the content for **Tab 2**. Markdown is supported too!
-  - title: Tab 3
-    content: >
-      Content for **Tab 3**. Add as many tabs as you want.
 ---
 
 
 
 <div class="tab-container">
-    <ul class="tabs">
-      <li class="tab active" onclick="openTab(event, 'tab1')">Tab 1</li>
-      <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
-      <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
-    </ul>
-
-    <div id="tab1" class="tab-content active">
-      <h2>Content for Tab 1</h2>
-      <p>This is the content for the first tab.</p>
-    </div>
-
-    <div id="tab2" class="tab-content">
-      <h2>Content for Tab 2</h2>
-      <p>This is the content for the second tab.</p>
-    </div>
-
-    <div id="tab3" class="tab-content">
-      <h2>Content for Tab 3</h2>
-      <p>This is the content for the third tab.</p>
-    </div>
-  </div>
-
-<script src="assets/js/beautifuljekyll.js"></script> <!-- Link to your JS file -->
-
-
-
-# lala it's up to date 
-
-### First tabs
-
-<div class="tab-container">
   <ul class="tabs">
-    <li class="tab active" onclick="openTab(event, 'tab1')">Tab 1</li>
-    <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
-    <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
+    <li class="tab active" onclick="openTab(event, 'tab1')">Health</li>
+    <li class="tab" onclick="openTab(event, 'tab2')">Gender Equality</li>
+    <li class="tab" onclick="openTab(event, 'tab3')">Technology</li>
+    <li class="tab" onclick="openTab(event, 'tab4')">WWII</li>
+    <li class="tab" onclick="openTab(event, 'tab5')">Cold War</li>
+    <li class="tab" onclick="openTab(event, 'tab6')">Vietnam War</li>
   </ul>
 
-  <div id="tab1" class="tab-content active">
-    <h2>Content for Tab 1</h2>
-    <p>This is the content for the first tab.</p>
+  <div id="tab1" class="tab-content active"> 
+  <!-- Health -->
+
+
+
+
+
   </div>
 
-  <div id="tab2" class="tab-content">
-    <h2>Content for Tab 2</h2>
-    <p>This is the content for the second tab.</p>
+  <div id="tab2" class="tab-content"> 
+  <!-- Gender Equality -->
+    
+  
+
+
   </div>
 
-  <div id="tab3" class="tab-content">
-    <h2>Content for Tab 3</h2>
-    <p>This is the content for the third tab.</p>
+  <div id="tab3" class="tab-content"> 
+  <!-- Technology -->
+    
+    
+
+
+
+
   </div>
-</div>
+  
+  <div id="tab4" class="tab-content"> 
+  <!-- WWII -->
+    
 
-<script src="{{ 'assets/js/beautifuljekyll.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ 'assets/css/custom-styles.css' | relative_url }}">
 
 
 
-# third way
+  </div>  
+  
+  <div id="tab5" class="tab-content"> 
+  <!-- Cold War -->
+   
+   
 
-<div class="tab-container">
-  <!-- Generate Tab Headers -->
-  <ul class="tabs">
-    {% for tab in page.tabs %}
-      <li class="tab {% if forloop.first %}active{% endif %}" onclick="openTab(event, 'tab{{ forloop.index }}')">
-        {{ tab.title }}
-      </li>
-    {% endfor %}
-  </ul>
 
-  <!-- Generate Tab Contents -->
-  {% for tab in page.tabs %}
-    <div id="tab{{ forloop.index }}" class="tab-content {% if forloop.first %}active{% endif %}">
-      {{ tab.content | markdownify }}
-    </div>
-  {% endfor %}
+
+
+  </div>  
+  
+  <div id="tab6" class="tab-content"> 
+  <!-- Vietnam War -->
+    
+    
+
+
+
+
+  </div>
 </div>
 
 <script src="{{ 'assets/js/scripts.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ 'assets/css/custom-styles.css' | relative_url }}">
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
