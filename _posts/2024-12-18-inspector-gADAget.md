@@ -245,7 +245,7 @@ WWII-themed movies not only documented historical realities but also mirrored an
 
 ## Cold War
 
-The Cold War (~1947–1991) was a period of intense geopolitical tension between the United States (and its allies, representing capitalist democracies) and the Soviet Union (and its allies, representing communist states). Despite the absence of direct military conflict between the two superpowers, this rivalry shaped global politics, economics, and military strategies for decades.
+Let me first give you some context about this theme. The Cold War (~1947–1991) was a period of intense geopolitical tension between the United States (and its allies, representing capitalist democracies) and the Soviet Union (and its allies, representing communist states). Despite the absence of direct military conflict between the two superpowers, this rivalry shaped global politics, economics, and military strategies for decades. Now let's dive into the analysis of this topic's presence in both movies and news datasets!
 
 ### Temporality Analysis of Movies with News
 
@@ -256,26 +256,28 @@ The Cold War (~1947–1991) was a period of intense geopolitical tension between
 Surprising findings here, look! There is a lag of 16 years between the movies and news related to cold war. It means that there are 16 years difference for both of them to align thematically. Let me get my Gadget List and see the possible reasons:
 
 - Movies often serve as a medium for processing historical and geopolitical events years after the events have passed.
-- Historical distance: A lag allows for new perspectives to emerge, moving beyond immediate reactions to provide deeper or more nuanced storytelling.
+- Historical distance: a lag allows new perspectives to emerge, moving beyond immediate reactions to provide deeper or more nuanced storytelling.
 - The patterns confirm that significant geopolitical events inspire filmmakers, creating a relationship where news inform art.
 
-Click now on the news legend to see only the evolution of the movies frequency, and let us dive together into more detail.
+Look, the plot is clickable. Let's click now on the news legend to see only the evolution of the movies frequency, and let us dive together into more detail.
 
 **1943**: During this year, the themes are Anti-Nazi and positive towards the USSR.
 
 **1960s and 1970s**: <br>
 The main themes are:
-- Nuclear anxiety: Themes often include accidental nuclear strikes, space races, and clashes between democracy and communism.
-- War and Resistance: Stories about World War II and other conflicts dominate, showing the  resistance movements, espionage, and personal sacrifices during wartime.
-- Political satire: Some movies use humor and satire to critique political ideologies, societal norms, which reflects Cold War propaganda or domestic issues.
-- Technology: Themes around technological advancements, particularly in space exploration and military innovation, shows the fascination and fear associated with rapid scientific progress during the Cold War.
+- Nuclear anxiety: themes often include accidental nuclear strikes, space races, and clashes between democracy and communism.
+- War and resistance: stories about World War II and other conflicts dominate, showing resistance movements, espionage, and personal sacrifices during wartime.
+- Political satire: some movies use humor and satire to critique political ideologies, societal norms, which reflects Cold War propaganda or domestic issues.
+- Technology: themes around technological advancements, particularly in space exploration and military innovation, show the fascination and fear associated with rapid scientific progress during the Cold War.
 - Human relationships: a recurring theme highlights the strength of family, friendship, and love as a way to cope with the bigger conflicts.
+
+Don't you find these really interesting?
 
 ### Geographical Analysis of Movies
 
 <iframe src="/assets/plots/cold_war/cold_war_movie_countries_world_map.html" width="100%" height="600" frameborder="0"></iframe>
 
-With no surprise, the main countries talking about Cold War are the US and USSR.
+No surprise there! The main countries talking about Cold War are the US and USSR.
 
 ### Genres Analysis
 
@@ -283,82 +285,84 @@ With no surprise, the main countries talking about Cold War are the US and USSR.
 
 Let's write down together the top 5 movies genres:
 - Drama: shows messy conflicts and personal struggles of that time.
-- Action Adventure: action, conflicts and tensions of that time.
-- War
+- Action/Adventure: action, conflicts and tensions of that time.
+- War: well... It seems quite self-explanatory.
 - Thriller: espionage, intrigue.
 - Comedy: satire, dark-humor.
 
 <iframe src="/assets/plots/cold_war/cold_war_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-**1940s**: Interesting genres: War, Spy, Propaganda Film.
+Are you ready for the following analysis? We had a good use of the Gadget Magnifying Glass to not skip a single detail. Let's look at some relevant decades with each, their interesting genres to analyze.
 
-These reflected the global conflict of World War II, with War films capturing battles and heroism, Spy films diving into espionage and secret missions, and Propaganda films promoting national unity and ideological messages. These genres mirrored the intense political and social atmosphere of the decade.
+**1940s**: War, Spy, Propaganda Film.
 
-**1950s**: Interesting genres: Science-Fiction, Action-Adventure. 
+These reflected the global conflict of World War II, with War films capturing battles and heroism, Spy films diving into espionage and secret missions (just like ours, but shhh), and Propaganda films promoting national unity and ideological messages. These genres mirrored the intense political and social atmosphere of the decade.
 
-Science Fiction explored fears of nuclear technology and the unknown, reflecting Cold War anxieties about the future and space exploration. Action/Adventure brought excitement with  heroes and quests to symbolise thhe ideoological battles of the era.
-In the NYT dataset, we have 4466 news having the word "nuclear" during this period.
+**1950s**: Science-Fiction, Action-Adventure. 
 
-**1960s**: Interesting genres: Comedy, World. 
+Science Fiction explored fears of nuclear technology and the unknown, reflecting Cold War anxieties about the future and space exploration. Action/Adventure brought excitement with the presence of heroes and quests to symbolise the ideological battles of the era. Interesting note: looking into the NYT dataset, we have 4466 news containing the word *nuclear* during this period.
 
-The World genre include a wide range of stories exploring global conflicts, historical events, and societal changes with main themes war and revolution, cold war and espionage and global perspectives. Comedy is used in a satire way to critique the societal norms It provides a lighter yet thought-provoking lens on pressing issues of the time.
+**1960s**: Comedy, World. 
 
-**1970s**: Interesting genres: War, Spy. These are the main years of the cold war. 
+The World genre includes a wide range of stories exploring global conflicts, historical events, and societal changes with war and revolution, cold war and espionage and global perspectives as main themes. Comedy is used in a satire way to criticize the societal norms. That provides a lighter, yet thought-provoking lens on pressing issues of the time.
 
-The War genre here explores those main themes: resistance, cultural identity, psychological cost of war and oppression, espionage... The Spy genre has themes such as paranoia, espionage and the high-stakes of world secrets and technological competition that defined East-West tensions. There are 2432 news related to the word "espionage" or "spy".
+**1970s** (These are the main years of the cold war): War, Spy.  
 
-**1980s**: Interesting genres: Thriller, Political.
+The War genre here explores those main themes: resistance, cultural identity, psychological cost of war and oppression, espionage... The Spy genre has themes such as paranoia, espionage and the high-stakes of world secrets and technological competition that defined East-West tensions. Again, looking in the news, 2432 of them are related to the word "espionage" or "spy".
 
-For the political genres, we can see American movies criticisng the Soviet through societal and political structures through allegory and personal stories. Also, we can find explorations of ideological conflicts, cultural divides, and individual struggles under oppressive system. For the thriller genres, we also see the paranoia through movies that have assassination attempts and shows the anxiety all oover the world.
+**1980s**: Thriller, Political.
 
-**1990s**: Interesting genres: World. 
+For the political genres, we can see American movies criticizing the Soviets through societal and political structures through allegory and personal stories. Also, we can find explorations of ideological conflicts, cultural divides, and individual struggles under oppressive system. For thriller genres, we also notice paranoia through movies that have assassination attempts and show anxiety all over the world.
 
-The world genre was dominated by narratives reflecting the geopolitical shifts following the Cold War, such as the dissolution of the Soviet Union, the Balkan wars, and post-communist transitions. We can also see the critiique of remaining ccommunist cvoruntries from the capitalists ones.
+**1990s**: World. 
 
-**2010s**: Interesting genres: Historical. 
+The world genre was dominated by narratives reflecting the geopolitical shifts following the Cold War, such as the dissolution of the Soviet Union, the Balkan wars, and post-communist transitions. We can also see the critique of remaining communist countries from the capitalist ones.
 
-As the world moved further from the Cold War and the collapse of communism, filmmakers in post-Soviet and post-communist states revisited their histories with a new lens, often exploring themes of identity, transformation, and reconciliation. We see thus a lot of movies related to cold war, even if it's done.
+**2010s**: Historical. 
+
+As the world moved further from the Cold War and the collapse of communism, filmmakers in post-Soviet and post-communist states revised history through a new lens, often exploring themes of identity, transformation, and reconciliation. Thus, we see a lot of movies related to cold war, even if it's done.
+
+Aha! How did you find our insights? Interesting, right? We hope you are still with us to keep on analyzing more thrilling data about the Cold War!
 
 
 ### Emotions Analysis 
 
 <iframe src="/assets/plots/cold_war/cold_war_emotion_counts_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-We see that there is less positive emotions during the Cold War. And there's a decrease of positive emotion from 1940s to 1960s. The American and Soviet Union were allies during WW2 showcasing the positive emootions during this period. But, then we see a decrease of positive emotions in the period of the Cold War.
+Now is the time to analyze the emotions seen in movies talking about Cold War. Are you ready? First, we notice that there is less positive emotions during the Cold War. To be honest, that is understandable. What next? Oh, there is a decrease of positive emotions from 1940s to 1960s. The American and Soviet Union were allies during WWII, which is showcased here by the positive emotions during this period. But right then, we see a decrease of positive emotions in the period of the Cold War.
 
-Negative emotions like fear, sadness, and disgust are consistently prevalent, reflecting the Cold War's tension, uncertainty, and threats (e.g., nuclear warfare, espionage).
-Fear shows a peak during the Cold War decades, particularly in the 1950s-1980s, corresponding to  tensions during events like the Cuban Missile Crisis. It declines in the 1990s and 2000s, aligning with the Cold War's end.
-Trust is relatively low but stable, perhaps reflecting the theme of distrust intrinsic to espionage and ideological rivalry and increases towards th 1990s.
+Negative emotions like fear, sadness, and disgust are consistently prevalent, reflecting the Cold War's tension, uncertainty, and threats (e.g., nuclear warfare, espionage). Fear shows a peak during the Cold War decades, particularly in the 1950s-1980s, corresponding to tensions during events like the Cuban Missile Crisis. It declines in the 1990s and 2000s, aligning with the Cold War's end.
+
+In the more positive side, trust is relatively low but stable, perhaps reflecting the theme of distrust intrinsic to espionage and ideological rivalry. This emotion increases towards the 1990s. Fascinating!
 
 <iframe src="/assets/plots/cold_war/cold_war_emotion_sentiment_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
-The counts for negative (4902) and positive (4760) sentiments are relatively close, indicating that Cold War narratives balance darker and more hopeful tones.
-This balance reflects the duality of Cold War that shows fear, mistrust, and conflict alongside resilience, innovation, and eventual resolution.
-The near-equal distribution suggests that Cold War narratives don't focus only on despair or triumph but instead explore the nuanced emotions of the era.
+The counts for negative (4902) and positive (4760) sentiments are relatively close, indicating that Cold War narratives balance darker and more hopeful tones. This balance reflects the duality of Cold War that shows fear, mistrust, and conflict alongside resilience, innovation, and eventual resolution. Interesting! The near-equal distribution suggests that Cold War narratives do not focus only on despair or triumph but instead explore the nuanced emotions of the era.
 
 
 ### Sentiment Analysis
 
 <iframe src="/assets/plots/cold_war/cold_war_all_sentiments.html" width="100%" height="600" frameborder="0"></iframe>
 
-As expected, negative sentiment prevails.
+Aha! As we would expect, negative sentiment prevails.
 
 <div style="display: flex; gap: 10px;">
   <iframe src="/assets/plots/cold_war/cold_war_top_movie_genres_by_negative_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
   <iframe src="/assets/plots/cold_war/cold_war_top_movie_genres_by_positive_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
 </div>
 
-Interesting: <br>
-- Negative sentiment: Comedy is prevalent because Cold War comedies often used satire to critique political ideologies, societal paranoia, and absurdities of the era. Used humour to show the darker truth of the era. 
-- Positive sentiment: World. Many Cold War-themed world cinema narratives from the post-Cold War period focus on reconciliation.
+Let us take the Gadget List back!
+
+- Negative sentiment: comedy is prevalent because Cold War comedies often used satire to criticize political ideologies, societal paranoia, and absurdities of the era. They also used humour to show the darker truth of the era. 
+- Positive sentiment: world. Many Cold War-themed world cinema narratives from the post-Cold War period focus on reconciliation.
 
 <iframe src="/assets/plots/cold_war/cold_war_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
 
 ### Conclusion
 
-The analysis shows how movies connect with their time, often reflecting key events and emotions from history. Films about war, espionage, and politics mirror the worries and struggles of their era, but there's an interesting 16-year lag which corresponds to the time it takes for real-life events to show up on screen. 
-The emotions and sentiments in Cold War-themed movies, while varied, often highlight the tension and anxiety of the period. This makes sense—it was a stressful time. In the end, movies don’t just tell stories; they capture the feelings and challenges of the people who lived through those moments, helping us understand the past on a deeper level.
+What are the main takeoffs of these fascinating analyses? They show how movies connect with their time, often reflecting key events and emotions from history. Films about war, espionage, and politics mirror the worries and struggles of their era, but there is an interesting 16-year lag which corresponds to the time it takes for real-life events to show up on screen. 
+The emotions and sentiments in Cold War-themed movies, while varied, often highlight the tension and anxiety of the period. This makes sense—it was a stressful time. In the end, movies do not just tell stories; they capture the feelings and challenges of the people who lived through those moments, helping us understand the past on a deeper level.
 
 
 ## Gender Equality
@@ -368,7 +372,7 @@ The emotions and sentiments in Cold War-themed movies, while varied, often highl
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
 
-The first graph shows that movies and news events discussing gender equality themes are connected, but with a time delay. Specifically, there’s a lag of 26 years, meaning societal discussions in the news influence movies after about two decades. This suggests that filmmakers take time to process societal shifts and incorporate them into storytelling.
+Folks, now it's time to analyze the topic of gender equalityThe first graph shows that movies and news events discussing gender equality themes are connected, but with a time delay. Specifically, there’s a lag of 26 years, meaning societal discussions in the news influence movies after about two decades. This suggests that filmmakers take time to process societal shifts and incorporate them into storytelling.
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
 
