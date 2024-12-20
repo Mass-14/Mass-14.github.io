@@ -238,11 +238,7 @@ Over decades, movies maintained a greater focus on WWII than news, solidifying c
 
 <br>
 
-<!-- ### Temporality Analysis of Movies -->
-
 ### Genres Analysis
-
-<!-- <iframe src="/assets/plots/ww2/ww2_overall_top_genres.html" width="100%" height="600" frameborder="0"></iframe> -->
 
 <iframe src="/assets/plots/ww2/ww2_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
@@ -266,13 +262,7 @@ Now, zooming into the 1960s, we notice a drastic decline in positive and trust-b
 
 <br>
 
-<iframe src="/assets/plots/ww2/ww2_emotion_sentiment_counts.html" width="100%" height="600" frameborder="0"></iframe>
-
-<br>
-
 ### Sentiment Analysis
-
-<!-- <iframe src="/assets/plots/ww2/ww2_all_sentiments.html" width="100%" height="800" frameborder="0"></iframe> -->
 
 <iframe src="/assets/plots/ww2/ww2_combined_sentiment_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
@@ -280,13 +270,7 @@ Ah-ha! What do we have here? A clear pattern: negative sentiments leading the ch
 
 <br>
 
-<!-- <div style="display: flex; gap: 10px;">
-  <iframe src="/assets/plots/ww2/ww2_top_movie_genres_by_negative_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
-  <iframe src="/assets/plots/ww2/ww2_top_movie_genres_by_positive_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
-</div> -->
-
-<!-- <iframe src="/assets/plots/ww2/ww2_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe> -->
-
+<iframe src="/assets/plots/ww2/ww2_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
 ### Conclusion
 WWII-themed movies not only documented historical realities but also mirrored and influenced public sentiment. This story reveals how cinema became a vessel for collective memory and emotion, offering a timeless exploration of humanity’s resilience and vulnerabilities.
