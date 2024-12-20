@@ -130,7 +130,7 @@ Now we are ready to investigate for our mission through data analysis!
   <div id="tab1" class="tab-content active">
 
     ### markdown test
-    
+
     <p>This is the content for the first tab.</p>
   </div>
 
@@ -163,7 +163,7 @@ Now we are ready to investigate for our mission through data analysis!
 <script src="{{ 'assets/js/scripts.js' | relative_url }}"></script>
 
 
-## Health theme
+## Health
 
 
 ### Temporality Analysis of Movies with News
