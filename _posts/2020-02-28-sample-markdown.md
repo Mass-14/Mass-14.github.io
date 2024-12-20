@@ -201,11 +201,12 @@ However, we can see that France and India are the prominent countries.</p>
 
 
 <h3 id="conclusion">Conclusion</h3>
-<p>This was such a nice ride full of analyses, wasn&#39;t it? Gender equality in movies has grown and changed over time, reflecting what’s happening in society and history. Movies tend to follow news by about 26 years, showing that it takes time for big ideas to make it into storytelling. While news reacts quickly, movies dig deeper and tell the stories in a way that lasts.</p>
+<p>This was such a nice ride full of analyses, wasn&#39;t it? Gender equality in movies has grown and changed over time, reflecting what’s happening in society and history. Movies seem to be ahead of their time, with news catching up about 26 years later. This happens because movies, especially independent ones, often push boundaries and explore new ideas long before they become mainstream topics. Filmmakers tend to reflect societal undercurrents or challenge norms, acting as visionaries</p>
 <p>The themes we see—like LGBTQ+ rights, feminism, and sexual freedom—show up a lot, with drama being the main genre. Drama deals with heavy subjects, comedy keeps it light and engaging, and world cinema brings different cultural views to the table. Romance shows love built on equality, breaking old-school gender roles.</p>
 <p>In the 1940s, movies explored women stepping into new roles during the war. By the 1970s and 1980s, feminist movements and LGBTQ+ stories took the spotlight. The 1960s brought themes of sexual freedom, inspired by things like the birth control pill and the sexual revolution.</p>
 <p>When it comes to emotions, there’s a mix. Positivity and hope stand out, but there’s also anger and frustration, especially as the fight for equality keeps going. </p>
-<p>In the end, these movies are all about progress, resilience, and pushing for a fairer world, one story at a time. </p>
+<p>In the end, these movies are all about progress, resilience, and pushing for a fairer world, one story at a time.</p>
+
 
   
 
