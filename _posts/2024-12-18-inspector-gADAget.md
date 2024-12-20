@@ -117,28 +117,24 @@ So, team, let’s stay sharp and stay focused! I am counting on you to deliver g
 
 <br>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Health theme
 
-
-### Correlation between frequencies
-
-<br>
-
-### Temporality Analysis
-
-<iframe src="/assets/plots/health/health_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
-
-Wow, what a complex graph we have here! Go-Go-Gadget Analysis Mode! If we concentrate for a minute, we can see something fascinating -- both plots are closely related! They seem to mirror each other: when the movies show a peak in frequency, the news do as well. Interesting, isn’t it? If we analyze this further, we see that before 1990, it seems like the health theme is more popular in movies: a bigger chunk of the movies dataset is focused on health compared to the news dataset. But wait—aha! After 1990, this trend is flipped! News about health occupy a way bigger proportion in their dataset than the movies! 
-
-<iframe src="/assets/plots/health/health_movies_and_news_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
-
-Now we have the same plot but by decade, it is way more pleasant to look at. The main difference we notice here is that the news have a higher frequency in their dataset than the movies over all decades, which was not the case before!
-
-<br>
-
-## Analyse of genres and feelings per theme in the news (?) 
-
-<br>
 
 ### Temporality Analysis of Movies
 
@@ -152,9 +148,21 @@ Wait, wait, wait! We see a different behavior when the frequencies are plotted b
 
 Oh, look there, what is this? A big increase from the 1950s to 1970s, before being slightly down again in the 1980s. And from then, bam, another rise from the 1980s till the 2010s. Interesting difference compared to the previous plot right? Looking at decades instead of years, we lose some of the fine details but get a clearer overall picture. This approach is better for spotting trends over long periods. Go-Go-Gadget Decade Detective!
 
+### Temporality Analysis of Movies with News
+
+<iframe src="/assets/plots/health/health_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
+
+Wow, what a complex graph we have here! Go-Go-Gadget Analysis Mode! Over the years, we see that the behavior of movie and news frequencies are fluctuating much from year to year. However, when looking at the scale, it seems to ba rather consistent, isn't it? Both movies and news show a similar percentage of representation in their respective datasets, with their frequencies intertwining from time to time. Using the Gadget Binoculars, we see that health in the news is less popular in between around 1960 and 1980. 
+
+<iframe src="/assets/plots/health/health_movies_and_news_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
+
+Now we have the same plot but by decade, it is way more pleasant to look at. What do we have here? Health seems to be more popular in the news dataset than in the movies one up until the 1960s. And we see that health is more and more talked about in movies over the decades, interesting! However, they are not as popular in the news from the 1960s. In this graph, the shift in popularity in the datasets looks more obvious than in the previous one. 
+
+<br>
+TODO LINK ?
 <br>
 
-### Genres Analysis of Movies
+### Genres Analysis
 
 <iframe src="/assets/plots/health/health_overall_top_genres.html" width="100%" height="600" frameborder="0"></iframe>
 
@@ -172,7 +180,7 @@ Oh, what’s this? A stacked bar chart showing the top 5 movie genres by decade 
 
 Drama seems to be dominant in every decade. That explains the observation we made using the previous graph! Documentaries are relevant starting from the 2000s. [WHY]? While comedies have quite a strong presence over multiple decades, we see that the horror genre starts to make its appearance from the 1970s. Fascinating... The world cinema takes a big place in the top genres in the 2000s. From Penny's point of view, it reflects the emergence of the movie industry outside of America in these years. Wait a minute, I see that 1960s is quite an interesting decade! We have around 17% of Bollywood movies and musical, as well as satire. The thriller makes an appearance in the 1990s but never comes back as a top genre in the following decade, just like the science fiction genre in the 1970s. If we observe the news dataset talking about health in the 1970s, we can see some articles about research or important medical advancements. However, it does not seem to be significant enough for it to be in a top genre for health movies. Intriguing...
 
-### Emotions Analysis of Movies
+### Emotions Analysis 
 
 <iframe src="/assets/plots/health/health_emotion_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
@@ -190,7 +198,7 @@ Looking into the news, we see that most articles talking about health are rather
 
 <iframe src="/assets/plots/health/health_emotion_sentiment_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
-### Sentiment Analysis of Movies
+### Sentiment Analysis
 
 <iframe src="/assets/plots/health/health_all_sentiments.html" width="100%" height="800" frameborder="0"></iframe>
 
@@ -209,6 +217,9 @@ First thing we notice through the Gadget Binoculars, is that drama is still the 
 
 <iframe src="/assets/plots/health/health_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
+### Conclusion
+
+About health, what is interesting to see is that we expected the topics to be more about disease, illness. However, it involved a lot of themes about health in general, for example lifestyle, or healthcare, which can explain the dominance of positive emotions in the portrayal of movies through the decades. But remember, we still observed a peak in the 1950s of negative emotions in movies talking about health, and that was, as we guessed, because of the societal environment and historical context. What we may deduce from this is that, regarding health, movies tend to represent the people's feelings, in other words, project their fears into the movie plots, rather than try to divert the attention. However, that was dominant only in the cold war and post-war years, else the overall sentiment is more positive! That reflects hope that humans have concerning their health, maybe through different progress in medecine, or just the will to live a better lifestyle, doing more sport, eating more healthy.
 
 
 ## WWII
