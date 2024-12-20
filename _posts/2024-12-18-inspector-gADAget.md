@@ -251,6 +251,8 @@ The Cold War (~1947–1991) was a period of intense geopolitical tension between
 
 <iframe src="/assets/plots/cold_war/cold_war_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
 
+<iframe src="/assets/plots/cold_war/cold_war_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
+
 Surprising findings here, look! There is a lag of 16 years between the movies and news related to cold war. It means that there are 16 years difference for both of them to align thematically. Let me get my Gadget List and see the possible reasons:
 
 - Movies often serve as a medium for processing historical and geopolitical events years after the events have passed.
@@ -367,6 +369,14 @@ The emotions and sentiments in Cold War-themed movies, while varied, often highl
 <iframe src="/assets/plots/gender_equality/gender_equality_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
 
 The first graph shows that movies and news events discussing gender equality themes are connected, but with a time delay. Specifically, there’s a lag of 26 years, meaning societal discussions in the news influence movies after about two decades. This suggests that filmmakers take time to process societal shifts and incorporate them into storytelling.
+
+<iframe src="/assets/plots/gender_equality/gender_equality_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
+
+<iframe src="/assets/plots/gender_equality/gender_equality_movies_news_cross_correlation.html" width="100%" height="600" frameborder="0"></iframe>
+
+This surprising results shows that the frequency at which the theme 'Gender Equality' appears in news and movies with a similar evolution pattern, but with a 26 years time difference. This number could indicate that news and movies conform to different generations. This comes as a surprise for us, as we expected the film industry to react more slowly than the news to evolution of our societies. 
+
+However, a lot of movies from the dataset are small independently produced movies. This could explain why, on the contrary, movie themes are greatly in advance of their news counterparts: small independent artists could tend to be visionnary, whereas the mainstream news and media talk more about maintream topics, reducing the relative frequency of niche topics.
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movie_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
@@ -510,26 +520,54 @@ Drama also stands out for positive vibes, focusing on showing stories of progres
 
 <iframe src="/assets/plots/vietnam/vietnam_movies_and_news_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
+Let's first talk about movies only. From both plots, we see a clear important presence of movies related to Vietnam war between 1960 and 1980, which corresponds well to the period of this war (1955 to 1975). We can note a bit of noise, since our model has detected movies similar to Vietnam war before it actually started. However, the strong presence of movies related to at the exact period of the war indicates the Vietnam war appeared significantly in movies or at least that there was a very strong increase in war movies in this perdiod. This suggests that many filmmakers and people wanted to the conflict represented on screen and talk about this war or war in general.
+
+<iframe src="/assets/plots/vietnam/vietnam_movies_news_cross_correlation.html" width="100%" height="600" frameborder="0"></iframe>
+
+<iframe src="/assets/plots/vietnam/vietnam_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
+
+Observing the cross-correlation, it is clear that the evolution of the Vietnam War theme has similarities between news and movies. There is some strong noise data before 1950, when the war has not actually started. However, if we exclude that, both show a strong presence of the topic in the 1960s, with its prominence gradually decreasing over time. This reflect that the war is a current crisis, before rapidly decreasing and following the same trend as movies as the war become a past event. Overall, suggests that the topic was widely discussed in both news articles and cultural production (in this case movies) while the events were currently happening. The cross-correlation has an optimal shift of 0 years, which suggest trends supports the hypothesis that wars are more represented in movies while they remain hot topics, but are addressed less frequently as they fades and they become more distant in public memory. In this case, news and movies address the issue at the same time.
+
 
 ### Genres Analysis
 
 <iframe src="/assets/plots/vietnam/vietnam_overall_top_genres.html" width="100%" height="600" frameborder="0"></iframe>
+
+The most important genres about Vietnam war are Drama, Action/Aventure and War, which is what we could expact for movies about a war or its context. Comedy comes 4th which can mean there is still a relative strong need to dedramatize it, even though it remains treated more as a serious topic as suggested by the 3 first genres. Another interesting thing to note is the presence of chinese movies, which is linked to China’s involvement in the Vietnam War and thus the country also had stories to tell from their side. Overall, we have a pretty good representation of how a war can be treated in movies.
+
+<iframe src="/assets/plots/vietnam/vietnam_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
+
+We observe that war is present all periods that concerns directly the Vietnam war as well as Drama and Action/Adventure. These are constants for a Vietnam war film. A important things to notice is the place reserved for comedies and other fun genre such as parody. These are not very present during the actual years of the war (1950s, 1960s and 1970s) but they become more frequent in the decades that follow, which could indicate that we it is difficult to laugh of a tragic event while it is happening, but it becomes more and more possible as the event is further in the past.
+
 
 
 ### Emotions Analysis 
 
 <iframe src="/assets/plots/vietnam/vietnam_emotion_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
+Not suprisingly, negative emotions dominates positives ones for Vietnam war films with fear being very high. It is expected for movies talking about war and crude realities of death, violence or trauma. Positive emotiosns are also well present. This could be because war movies also tend to represent a bit of positivity inside the atrocities of war such as friendship and camaraderie between soldiers and may explain why trust is relatively high. 
+
 <iframe src="/assets/plots/vietnam/vietnam_emotion_counts_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
+
+We note that positive emotions tend to increase over time, while negative emotions decrease. This could suggest that as tragic events such the Vietnam War, become more distant in the past, their portrayal shifts, focusing less on its horrors and dedramatizing . Similarly, trust shows an upward trend over time, while anger diminishes. The representation of the war appears to become less raw over time and less focused on negative aspects, possibly because the emotional impact of the war is less important for audiences who are no longer directly affected by it.
 
 ### Sentiment Analysis
 
 <iframe src="/assets/plots/vietnam/vietnam_combined_sentiment_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
+Negative and positive emotions remain relatively constant over time, which suggests that, regardless of the period, war will always be portrayed as something deeply negative, which makes sense.
+
+<div style="display: flex; gap: 10px;">
+  <iframe src="/assets/plots/gender_equality/gender_equality_top_movie_genres_by_negative_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
+  <iframe src="/assets/plots/gender_equality/gender_equality_top_movie_genres_by_positive_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
+</div>
+
+The most noticeable changes between these graphs are the swaped positions between Comedy, Action/Adventure and War. In negative sentiments, Comedy plays a much smaller role, while War and Action/Adventure genres are predominant. So, obviously movies that focus on depicting war itself in its tough realities are far more negative than those that turn it into comedies, where the action/war side is less important, but that is common sense.
+
+
 <iframe src="/assets/plots/vietnam/vietnam_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
-
-### Conclusion
+All genres are associated with more negative than positive sentiments. The most negative one is War while other genres, such as Drama or Action are less association with negativity, maybe focusing more on positive sides like brotherhood, courage or hope. Comedy is the only one that has more positive than negative but not by a significant amount, which suggest that event in comedies, Vietnam War is treated as something very serious and dark.
 
 
 
@@ -542,26 +580,70 @@ Drama also stands out for positive vibes, focusing on showing stories of progres
 
 <iframe src="/assets/plots/technology/technology_movies_and_news_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
+Hmm, fascinating! There is no clear tendency for the presence of technology over time in movies only... No particular event seems to have triggered a movement of more movies about this theme. Curious, isn’t it? Wait, Penny is telling me something! The dataset is a bit small, so those peaks might just be tricky little outliers, sensitive to small variations. Nothing conclusive yet, team!
+
+But fear not! Let’s dig deeper and uncover how this theme has been treated over the years. Gadget team, prepare to dive into the details!
+
+When analyzing the correlation between news and movies, no significant correlation can be observed. We find that the optimal lag is 35 years. However, we cannot make a reasonable hypothesis about the cause of this lag, but let's try to come with some. The first hypothesis is that it is pure randomness, which is highly likely. The second hypothesis is that technology seems to be discussed approximately 30 years before similar trends appear in movies. This does not seem to make sense, as movies sometimes anticipate what could happen, depict scientific discoveries years after they occur, or reflect current worries about technological development. Therefore, movies could either be ahead of the news, approximately aligned with it or shifter with a few years, or talking about the topic many years after it appeared in the news. Thus, we can reasonably conclude that there is no clear link between the presence of the technology topic in news and movies.
+
 
 ### Genres Analysis
 
 <iframe src="/assets/plots/technology/technology_overall_top_genres.html" width="100%" height="600" frameborder="0"></iframe>
+
+Science-fiction as the first genre for technology, how surprising ! More than half of the themes are either Drama, Action/Adventure, Science fiction, thriller, documentary or horror. which might indicate that technology is addressed through a more serious angle. Comedy is 4th place at 10.9% is however taking a pretty big part of the cake. Technology can also lend itself to fun and a lighter tone. The presence of horror movies is also interesting, it might indicate that technology can be perceived as scary or part of a scary plot.
+
+Ah, science fiction taking the top spot for technology, how unsurprising! More than half of the themes fall into genres like drama, action/adventure, science fiction, thriller, documentary, or horror, suggesting technology is often addressed from a serious angle. But wait, look at comedy in fourth place with 10.9%! That’s a pretty big slice of the pie, showing that technology can also lend itself to fun and a lighter tone.
+
+And then there’s horror, its presence is intriguing, isn’t it? This might indicate that technology isn’t always seen as helpful or inspiring. Sometimes, it’s the stuff of nightmares or a chilling plot twist! Go Go Gadget Genre Investigation!
+
+<iframe src="/assets/plots/technology/technology_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
+
+Just as expected, science fiction dominates most decades! But hold on, the 1960s tell a different story! This decade shows a much bigger presence of funnier genres like comedy, parody, and satire, with science fiction completely absent from the top 5, how curious!
+
+And look at this, war paired with technology only appears during the 1940s, which makes perfect sense given the World War II context. A fascinating detail, wouldn’t you say? Of course I know Penny, the dataset is a bit small, so we have to tread carefully when interpreting genre evolution over time.
 
 
 ### Emotions Analysis 
 
 <iframe src="/assets/plots/technology/technology_emotion_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
+Aha! The dominant emotions here are positive and negative, along with anticipation, fear, and trust. But look at this! The positive side is larger than the negative one when it comes to technology! Surprising, isn’t it? It seems movies aren’t as pessimistic about technology as one might think.
+
+And take a look at trust and anticipation, both rank higher than fear. This suggests that in movies, technology is often addressed more as hope for the future rather than something completely scary. Fascinating stuff! Go Go Gadget Emotional Analysis!
+
 <iframe src="/assets/plots/technology/technology_emotion_counts_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
+
+Interesting discovery, team! The order of emotions in movies doesn’t change significantly over time, suggesting that technology tends to be addressed in a relatively consistent way. But wait, there’s more!
+
+Negative emotions seem to gain importance as time goes on. Look closely, and you’ll see an increase in fear and a slight decrease in trust. This could indicate a shifting perspective, perhaps a more recent approach to technology is showing a less optimistic vision of its role and impact.
+
+<iframe src="/assets/plots/technology/technology_emotion_sentiment_counts.html" width="100%" height="600" frameborder="0"></iframe>
+
+Ah, as expected, positive sentiment dominates the technology theme overall! This is in accordance with what we have said earlier: technological progress is generally seen as a positive change rather than a scary evolution.
+
+It seems movies prefer to focus on the hope and possibilities that technology brings, rather than diving into the fear factor. Go Go Gadget Optimism Detector!
+
 
 ### Sentiment Analysis
 
 <iframe src="/assets/plots/technology/technology_combined_sentiment_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
+Hmm, no clear trend stands out from this plot, team! Positive sentiment in movies is not simply increasing or decreasing over time, it’s a bit of a mixed bag.
+
+However, the 1940s and 1950s tell a different story. During these decades, technology seemed to be associated to much larger positive emotions, reflecting more trust and hope than in the years that followed. Could it be that the optimism of these post-war years showed technology in a brighter light?
+
+<div style="display: flex; gap: 10px;">
+  <iframe src="/assets/plots/technology/technology_top_movie_genres_by_negative_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
+  <iframe src="/assets/plots/technology/technology_top_movie_genres_by_positive_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
+</div>
+
+Well, well, well, it turns out that the genres for positive and negative sentiments are not all that different after all! The comedy genre shows up more in positive sentiment, which is just as we would expect. Meanwhile, thrillers make a big apparition in the negative sentiment zone, still no surprise there! Now, here’s the interesting part: documentaries are more often tied to positive vibes. It seems like the evolution of technology is depicted as a positive change, with these documentary movies not trying to alert on its potential dangers.
+
 <iframe src="/assets/plots/technology/technology_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
+Here’s something truly fascinating: in science fiction, the positive side dominates by a lot! Could it be that writing about the future makes us more optimistic? It seems so! We might think that dystopian stories, which anticipate what could go wrong with technological evolution, would have a bigger impact, but that is not the case. Drama, too, is much more associated with positive emotions than negative ones. Why? Well, dramas often focus around human stories that convey hope and progress, with less frightening developments. On the other hand, thrillers are a play a big role in negative emotions, where fear is particularly significant—and that makes sense! Technology often has a bad reputation in these films, seen as something to fear. But wait, it is also possible that the plot could be sad or scary for reasons unrelated to technology. In fact, technology might even serve as a tool to overcome challenges rather than being inherently associated with a negative perception.
 
-### Conclusion
 
 
 # Conclusion
