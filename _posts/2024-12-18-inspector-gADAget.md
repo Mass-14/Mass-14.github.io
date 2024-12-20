@@ -570,6 +570,10 @@ The emotions and sentiments in Cold War-themed movies, while varied, often highl
 
 # Conclusion
 
+Good job dear inspectors! Now is time for us to summarize what we found in the datasets!
+
+Overall, results were really interesting. We analyzed three themes linked to war and found that, obviously, they were associated with serious genres and negative sentiments. Movies about WWII and the Vietnam War seem to appear at the same time as the wars themselves,  which might reflect a need to talk about them. However, that is not the case of the Cold War, which query was “URSS”. That explains the lag of 16 years in the plot of the interactive lag. All other themes are associated with much more positive sentiments, where the comedy genre takes up much more space. This might indicate that we enjoy laughing about important themes, especially for gender equality or health, though less so for technology. Movies about gender equality are shifted in time compared to news, which shows that movies reflect topics discussed in society way before the news do. Other topics such as health or technology did not seem to have any noticeable correlation with news. Maybe these topics are too general and omnipresent in society in general, to be finding really interesting correlation between them. Furthermore, this suggests that their treatment in movies is independent from their presence in news articles. In conclusion, this aligns with what we expected: war is depicted in all its horror while it happens, whereas other societal themes are treated more independently in time with a much lighter tone. And voilà! This is the glimpse we had of societal themes through movies!
+
 
 <br>
 
