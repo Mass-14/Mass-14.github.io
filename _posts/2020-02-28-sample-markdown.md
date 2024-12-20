@@ -1,6 +1,6 @@
 ---
 layout: default
-title: inspector gADAdget
+title: sample 
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
@@ -12,80 +12,30 @@ author: Bill Smith
 
 
 
-# Introduction
+<div class="tab-container">
+    <ul class="tabs">
+      <li class="tab" onclick="openTab(event, 'tab1')">Tab 1</li>
+      <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
+      <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
+    </ul>
 
-{: .box-mission}
-Movies often reflect the culture and society of a certain time and represent topics people are interested in. Your mission is to explore how the themes and topics of movies have evolved over time, correlating them with trends observed in newspapers.  
-<br>
-Use the CMU Movie Summary Corpus, which includes data from over 42000 movies.  
-<br>
-Your goal is to determine how societal issues are present in movies and how this presence evolves in comparison to the same topics in news articles.  
-<br>
-You have to examine their potential correlations and how they may appear shifted in time.
-<br> <br>
-This message will self-destruct.
+    <div id="tab1" class="tab-content">
+      <h2>Content for Tab 1</h2>
+      <p>This is the content for the first tab.</p>
+    </div>
 
+    <div id="tab2" class="tab-content">
+      <h2>Content for Tab 2</h2>
+      <p>This is the content for the second tab.</p>
+    </div>
 
-Right chief you can count on us!  
-We will detect important topics **GOGO GADGET Topic Modeling** in both the CMU dataset and a news article dataset from the New York Times. From that, we will be able to compare the representation of these topics over time.
+    <div id="tab3" class="tab-content">
+      <h2>Content for Tab 3</h2>
+      <p>This is the content for the third tab.</p>
+    </div>
+</div>
 
-
-<br> 
-
-## Themes explanation 
-
-
-<br>
-
-## The inspectors
-
-
-<br>
-
-## Datasets
-The CMU Movie Summary Corpus, which includes data from over 42000 movies.
-
-New York Times Articles Dataset: (~2.93GB) This dataset comprises title and excerpt for New York times articles from 1920 to 2020 found on https://www.kaggle.com/datasets/tumanovalexander/nyt-articles-data. It will be used to find recurrent topics over periods of time via topic modeling.
-
-<br>
-
-# Themes extraction 
-
-
-<br>
-
-## Themes frequency in movies and news
-
-
-<br>
-
-### Correlation between frequencies
-
-
-
-<br>
-
-### Analyse de temporalité (à quel point est-ce que les films et les news sont proches) RENAME OR MERGE WITH PREVIOUS ?
-
-
-<br>
-
-## Analyse of genres and feelings per theme in the news  
-
-<br>
-
-### Analyse of temporality
-
-
-<br>
-
-# Conclusion
-
-
-<br>
-
-
-
+<script src="scripts.js"></script> <!-- Link to your JS file -->
 
 
 
