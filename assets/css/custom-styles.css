@@ -84,7 +84,7 @@ layout: null
 } */
 
 
-.tab {
+/* .tab {
   display: flex;
   flex-wrap: wrap;
   margin-left: -20px;
@@ -131,10 +131,10 @@ layout: null
 }
 .tab-content > li.active {
   display: block;
-}
+} */
 
 /* The 2 following blocks can be removed if the script is not configured to show the toast message */
-#jekyll-tabs-copy-to-clipboard-message {
+/* #jekyll-tabs-copy-to-clipboard-message {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -153,5 +153,47 @@ layout: null
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}  */
+
+
+.tab-container {
+  width: 80%;
+  margin: 0 auto;
 }
 
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-top: 2px solid #007bff;
+}
+
+.tab-content.active {
+  display: block;
+}

@@ -8,6 +8,17 @@ tags: [test]
 comments: true
 mathjax: true
 author: Bill Smith
+
+tabs:
+  - title: Tab 1
+    content: >
+      This is the content for **Tab 1**. You can include HTML or Markdown here.
+  - title: Tab 2
+    content: >
+      This is the content for **Tab 2**. Markdown is supported too!
+  - title: Tab 3
+    content: >
+      Content for **Tab 3**. Add as many tabs as you want.
 ---
 
 
@@ -69,6 +80,30 @@ author: Bill Smith
 <script src="{{ 'assets/js/beautifuljekyll.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ 'assets/css/custom-styles.css' | relative_url }}">
 
+
+
+# third way
+
+<div class="tab-container">
+  <!-- Generate Tab Headers -->
+  <ul class="tabs">
+    {% for tab in page.tabs %}
+      <li class="tab {% if forloop.first %}active{% endif %}" onclick="openTab(event, 'tab{{ forloop.index }}')">
+        {{ tab.title }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Generate Tab Contents -->
+  {% for tab in page.tabs %}
+    <div id="tab{{ forloop.index }}" class="tab-content {% if forloop.first %}active{% endif %}">
+      {{ tab.content | markdownify }}
+    </div>
+  {% endfor %}
+</div>
+
+<script src="{{ 'assets/js/beautifuljekyll.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ 'assets/css/custom-styles.css' | relative_url }}">
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
