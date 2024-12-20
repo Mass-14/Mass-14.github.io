@@ -33,19 +33,11 @@ This mission is crucial, Gadget, and only you can complete it. Analyze the data,
 <br>
 This message will self-destruct.
 
-*[TODO] Add another message from boss explaining what the datasets contain*
-
 Right, Chief! You can count on us!
 <br>
 We’ll uncover the most important topics using Go-Go-Gadget Topic Modeling on both the CMU Movie Summary Corpus and the New York Times news article dataset. With this, we will compare how these themes are represented over time across these two different ways.
 
 As a dedicated team of inspectors, we gladly accept this challenge! Let’s get to work!
-
-
-<br> 
-
-## Themes explanation 
-
 
 <br>
 
@@ -110,7 +102,29 @@ So, team, let’s stay sharp and stay focused! I am counting on you to deliver g
 # Themes extraction 
 
 
-<br>
+### What is in our GADAget Mallet?
+
+Our GADAget Mallet is getting heavy now that the Boss gave us the datasets. Let's see what tools we have to accomplish this mission! 
+
+- Preprocessing gADAget: this is perfect to clean our datasets, as it preprocesses text by lowercasing all characters, removing stop words and punctuation. Now, we will have a clean text to be able to analyze it correctly!
+- Topic modeling gADAget: LDA and LSI to find inspiration in the news. This will allow us to get a glimpse on very frequent topics in the news.
+- Semantic search gADAget: Model all-MiniLM-L6-v2 on Hugging Face, (don't be jealous, if you want to have it in your mallet as well, you can find it here [Hugging Face](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2). It will be of great help to find our topics of interest in both the news and movies datasets. We just have to encode the movies’ plot summaries or news titles and excerpts and a query corresponding to our topic of interest, compute the cosine similarity between the two, take all the movies and news up to a certain similarity threshold and tada ! We have relevant news and movies. Magic no? 
+- Plotting gADAget: a very useful and amazing tool called Plotly to generate plots, and visualize the data we process.
+
+
+### Theme extraction
+
+Using our  gADAgets on the news datasets, and obtain a few themes that have a strong presence in the dataset, such as migration, health, economy, war, technology. Hmm, the war theme seems to be too broad, let's use the gADAgets again to refine the themes: Cold War, World War II, Vietnam War seem to be interesting, right? Inspectors gADAgets, choose one theme each and Go-Go-Gadget Data Analysis!
+
+Wait, there seems to be some issues with some themes. Economy and migration topics have too few data to analyze, we would not be able to do a great job with these ones. Let's focus on the following themes: Health, Gender Equality, Technology, Vietnam War, World War II and Cold War. Yes, there are themes that we chose ourselves out of interest.
+
+Let's be strategic and proceed in the following way: <br>
+1. Compare the evolution of frequencies between the theme in movies and news. <br>
+2. Analyze the evolution of genres in time of the movies with that particular theme. Find, if possible, a link with the news datasets that can explain the presence of certain rather than others. Are the articles in news reflected in the movies? Do we see any correlation? <br>
+3. Emotion analysis in the movies: which emotions dominate in the movie dataset about a certain theme? How does it evolve through time? <br>
+4. Sentiment analysis in the movies: what overall sentiment do we find in these movies?
+
+Now we are ready to investigate for our mission through data analysis!
 
 ## Themes frequency in movies and news
 
@@ -136,30 +150,11 @@ So, team, let’s stay sharp and stay focused! I am counting on you to deliver g
 ## Health theme
 
 
-### Temporality Analysis of Movies
-
-<iframe src="/assets/plots/health/health_movie_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
-
-Ah, what do we have here? Big fluctuations in the percentage of movies talking about health between 1934 and 1944, and then, oh! The overall trend is that the frequency of movies about health is gradually going down over time. But hold on! It’s not all downhill. There are some surprising peaks, with the most noticeable one being in 1978. It's interesting to see all these peaks coming up in years such as 1976, 1982, 1990, 2003, 2007 and 2010. Hmm… what could be the reason for such peaks? Time to investigate! Go-Go-Gadget Detective!
-
-<iframe src="/assets/plots/health/health_movie_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
-
-Wait, wait, wait! We see a different behavior when the frequencies are plotted by decade! The pattern here looks way smoother than the one before, maybe because grouping by decade averages out the yearly fluctuation. And the overall trend seems to be that the number of movies talking about health is increasing over the decades.
-
-Oh, look there, what is this? A big increase from the 1950s to 1970s, before being slightly down again in the 1980s. And from then, bam, another rise from the 1980s till the 2010s. Interesting difference compared to the previous plot right? Looking at decades instead of years, we lose some of the fine details but get a clearer overall picture. This approach is better for spotting trends over long periods. Go-Go-Gadget Decade Detective!
-
 ### Temporality Analysis of Movies with News
 
 <iframe src="/assets/plots/health/health_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
 
-Wow, what a complex graph we have here! Go-Go-Gadget Analysis Mode! Over the years, we see that the behavior of movie and news frequencies are fluctuating much from year to year. However, when looking at the scale, it seems to ba rather consistent, isn't it? Both movies and news show a similar percentage of representation in their respective datasets, with their frequencies intertwining from time to time. Using the Gadget Binoculars, we see that health in the news is less popular in between around 1960 and 1980. 
-
-<iframe src="/assets/plots/health/health_movies_and_news_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
-
-Now we have the same plot but by decade, it is way more pleasant to look at. What do we have here? Health seems to be more popular in the news dataset than in the movies one up until the 1960s. And we see that health is more and more talked about in movies over the decades, interesting! However, they are not as popular in the news from the 1960s. In this graph, the shift in popularity in the datasets looks more obvious than in the previous one. 
-
-<br>
-TODO LINK ?
+Wow, what a complex graph we have here! Go-Go-Gadget Analysis Mode! Over the years, we see that the behavior of movie and news frequencies are fluctuating much from year to year. However, when looking at the scale, it seems to be rather consistent, isn't it? Both movies and news show a similar percentage of representation in their respective datasets, with their frequencies intertwining from time to time. Using the Gadget Binoculars, we see that health in the news is less popular in between around 1960 and 1980. That's an interesting first observation, let's go now to the genres analysis!
 <br>
 
 ### Genres Analysis
@@ -174,11 +169,11 @@ Romance is the next top genre! What a diverse set of top genres in the health-th
 
 To summarize, drama dominates here but health touches a diverse set of genres, from educational documentaries to love stories. Go-Go-Gadget Genres Analysis!
 
-<iframe src="/assets/plots/health/health_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="/assets/plots/health/health_top_genres_by_decade.html" width="100%" height="800" frameborder="0"></iframe>
 
 Oh, what’s this? A stacked bar chart showing the top 5 movie genres by decade for health themes! Penny, come take a look at this – it’s colorful and full of mystery! Let's take out my Gadget Magnifying Glass to get a closer look at this.
 
-Drama seems to be dominant in every decade. That explains the observation we made using the previous graph! Documentaries are relevant starting from the 2000s. [WHY]? While comedies have quite a strong presence over multiple decades, we see that the horror genre starts to make its appearance from the 1970s. Fascinating... The world cinema takes a big place in the top genres in the 2000s. From Penny's point of view, it reflects the emergence of the movie industry outside of America in these years. Wait a minute, I see that 1960s is quite an interesting decade! We have around 17% of Bollywood movies and musical, as well as satire. The thriller makes an appearance in the 1990s but never comes back as a top genre in the following decade, just like the science fiction genre in the 1970s. If we observe the news dataset talking about health in the 1970s, we can see some articles about research or important medical advancements. However, it does not seem to be significant enough for it to be in a top genre for health movies. Intriguing...
+Drama seems to be dominant in every decade. That explains the observation we made using the previous graph! Documentaries are relevant starting from the 2000s. While comedies have quite a strong presence over multiple decades, we see that the horror genre starts to make its appearance from the 1970s. Fascinating... The world cinema takes a big place in the top genres in the 2000s. From Penny's point of view, it reflects the emergence of the movie industry outside of America in these years. Wait a minute, I see that 1960s is quite an interesting decade! We have around 17% of Bollywood movies and musical, as well as satire. The thriller makes an appearance in the 1990s but never comes back as a top genre in the following decade, just like the science fiction genre in the 1970s. If we observe the news dataset talking about health in the 1970s, we can see some articles about research or important medical advancements. However, it does not seem to be significant enough for it to be in a top genre for health movies. Intriguing...
 
 ### Emotions Analysis 
 
