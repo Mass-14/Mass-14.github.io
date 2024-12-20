@@ -102,7 +102,7 @@ tabs:
   {% endfor %}
 </div>
 
-<script src="{{ 'assets/js/beautifuljekyll.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/scripts.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ 'assets/css/custom-styles.css' | relative_url }}">
 
 
