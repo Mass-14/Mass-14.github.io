@@ -323,11 +323,13 @@ However, we can see that France and India are the prominent countries.</p>
 <iframe src="/assets/plots/cold_war/cold_war_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
 
 <p>Surprising findings here, look! There is a lag of 16 years between the movies and news related to cold war. It means that there are 16 years difference for both of them to align thematically. Let me get my Gadget List and see the possible reasons:</p>
+<p>Cold War movies appear before the news because of several reasons:</p>
 <ul>
-<li>Movies often serve as a medium for processing historical and geopolitical events years after the events have passed.</li>
-<li>Historical distance: a lag allows new perspectives to emerge, moving beyond immediate reactions to provide deeper or more nuanced storytelling.</li>
-<li>The patterns confirm that significant geopolitical events inspire filmmakers, creating a relationship where news inform art.</li>
+<li>URSS is associated to Cold War, movies about URSS are often categoralised as Cold War</li>
+<li>Filmmakers may foresee and dramatize potential conflicts or societal changes</li>
+<li>Movies can capture underlying anxieties or themes circulating in society before they appear in the news</li>
 </ul>
+
 <p>Look, the plot is clickable. Let&#39;s click now on the news legend to see only the evolution of the movies frequency, and let us dive together into more detail.</p>
 <p><strong>1943</strong>: During this year, the themes are Anti-Nazi and positive towards the USSR.</p>
 <p><strong>1960s and 1970s</strong>: <br>
