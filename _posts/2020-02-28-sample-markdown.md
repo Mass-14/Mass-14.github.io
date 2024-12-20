@@ -14,12 +14,12 @@ author: Bill Smith
 
 <div class="tab-container">
     <ul class="tabs">
-      <li class="tab" onclick="openTab(event, 'tab1')">Tab 1</li>
+      <li class="tab active" onclick="openTab(event, 'tab1')">Tab 1</li>
       <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
       <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
     </ul>
 
-    <div id="tab1" class="tab-content">
+    <div id="tab1" class="tab-content active">
       <h2>Content for Tab 1</h2>
       <p>This is the content for the first tab.</p>
     </div>
@@ -33,7 +33,7 @@ author: Bill Smith
       <h2>Content for Tab 3</h2>
       <p>This is the content for the third tab.</p>
     </div>
-</div>
+  </div>
 
 <script src="assets/js/beautifuljekyll.js"></script> <!-- Link to your JS file -->
 
