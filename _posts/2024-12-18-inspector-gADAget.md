@@ -15,20 +15,31 @@ author: Bill Smith
 # Introduction
 
 {: .box-mission}
-Movies often reflect the culture and society of a certain time and represent topics people are interested in. Your mission is to explore how the themes and topics of movies have evolved over time, correlating them with trends observed in newspapers.  
+**TOP SECRET MISSION**
 <br>
-Use the CMU Movie Summary Corpus, which includes data from over 42000 movies.  
+*To: Inspectors gADAget*
 <br>
-Your goal is to determine how societal issues are present in movies and how this presence evolves in comparison to the same topics in news articles.  
 <br>
-You have to examine their potential correlations and how they may appear shifted in time.
-<br> <br>
+Inspectors gADAget,
+<br>
+The world is counting on you again! This time, your mission is to investigate how movies reflect culture and society across time. Movies often reflect the culture and society of a certain time and represent topics people are interested in. Your task is to uncover how themes and topics in movies have evolved over time and compare these trends to those observed in newspapers. 
+<br>
+To help you, we have provided access to the CMU Movie Summary Corpus, a data containing information on over 42,000 movies. With this dataset, you’ll analyze how societal topics are represented in movies and how these themes change with time.
+<br>
+But that’s not all! Your challenge doesn’t end with movies: you also have to examine newspaper data to identify if the same topics are reflected in the news, and how. Look for correlations and time shifts between movies and the articles.
+<br> 
+This mission is crucial, Gadget, and only you can complete it. Analyze the data, connect the dots, and uncover the story that links our society, our movies, and our headlines.
+<br>
+<br>
 This message will self-destruct.
 
+*[TODO] Add another message from boss explaining what the datasets contain*
 
-Right chief you can count on us!  
-We will detect important topics **GOGO GADGET Topic Modeling** in both the CMU dataset and a news article dataset from the New York Times. From that, we will be able to compare the representation of these topics over time.
+Right, Chief! You can count on us!
+<br>
+We’ll uncover the most important topics using Go-Go-Gadget Topic Modeling on both the CMU Movie Summary Corpus and the New York Times news article dataset. With this, we will compare how these themes are represented over time across these two different ways.
 
+As a dedicated team of inspectors, we gladly accept this challenge! Let’s get to work!
 
 
 <br> 
