@@ -40,7 +40,34 @@ We will detect important topics **GOGO GADGET Topic Modeling** in both the CMU d
 
 ## The inspectors
 
-![Clémentine](/assets/img/IG_perso_patins-giro.png){: .mx-auto.d-block :}
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px;">
+    
+  <div style="text-align: center;">
+    <img src="/assets/img/IG_perso_loupe.png" alt="Member 1" style="width: 180px; height: 180px; border-radius: 10px; margin-top: 20px;">
+    <p>Sarah Badr</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="/assets/img/IG_perso_veste.png" alt="Member 2" style="width: 180px; height: 180px; border-radius: 10px; margin-top: 20px;">
+    <p>Massimo Berardi</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="/assets/img/IG_perso_cou.png" alt="Member 3" style="width: 180px; height: 180px; border-radius: 10px; margin-top: 20px;">
+    <p>Antoine Buttier</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="/assets/img/IG_perso_jumelle-dezoom.png" alt="Member 4" style="width: 180px; height: 180px; border-radius: 10px; margin-top: 20px;">
+    <p>Shuli Jia</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="/assets/img/IG_perso_patins-giro.png" alt="Member 5" style="width: 180px; height: 180px; border-radius: 10px; margin-top: 20px;">
+    <p>Clémentine Jordan</p>
+  </div>
+</div>
+
 
 
 <br>
