@@ -398,31 +398,33 @@ The emotions and sentiments in Cold War-themed movies, while varied, often highl
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movies_and_news_frequency_year.html" width="100%" height="600" frameborder="0"></iframe>
 
-Folks, now it's time to analyze the topic of gender equalityThe first graph shows that movies and news events discussing gender equality themes are connected, but with a time delay. Specifically, there’s a lag of 26 years, meaning societal discussions in the news influence movies after about two decades. This suggests that filmmakers take time to process societal shifts and incorporate them into storytelling.
+Folks, now it's time to analyze the topic of gender equality. This first graph shows that movies and news events discussing gender equality themes are connected, but with a time delay. Specifically, there’s a lag of 26 years, meaning societal discussions in the news have influenced movies after about two decades. What could be the reason? Filmmakers may take time to process societal shifts and incorporate them into storytelling.
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movies_news_cross_correlation.html" width="100%" height="600" frameborder="0"></iframe>
 
-This surprising results shows that the frequency at which the theme 'Gender Equality' appears in news and movies with a similar evolution pattern, but with a 26 years time difference. This number could indicate that news and movies conform to different generations. This comes as a surprise for us, as we expected the film industry to react more slowly than the news to evolution of our societies. 
+These surprising results show that the frequency at which the theme 'Gender Equality' appears in news and movies with a similar evolution pattern, but with a 26 years time difference. Interesting! This number could indicate that news and movies conform to different generations. This comes as a surprise for us, as we expected the film industry to react more slowly than the news to evolution of our societies. Did you too?
 
-However, a lot of movies from the dataset are small independently produced movies. This could explain why, on the contrary, movie themes are greatly in advance of their news counterparts: small independent artists could tend to be visionnary, whereas the mainstream news and media talk more about maintream topics, reducing the relative frequency of niche topics.
+However, a lot of movies from the dataset are small independently produced movies. This could explain why, on the contrary, movie themes are greatly in advance compared to their news counterparts: small independent artists could tend to be visionary, whereas the mainstream news and media talk more about mainstream topics, reducing the relative frequency of niche topics. Isn't is fascinating?
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movie_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-The frequency of gender equality-themed movies has been inconsistent, with noticeable spikes in certain decades, such as the 1940s, 1970s, 1980s, and 2010s.
+The frequency of gender equality-themed movies has been inconsistent, with noticeable spikes in certain decades, such as in the 1940s, 1970s, 1980s, or 2010s.
 
-The 1970s and 1980s could be due to the second feminism wave: began in the early 1960s and lasted roughly two decades.
+The 1970s and 1980s peaks could be due to the second feminism wave: it began in the early 1960s and lasted roughly two decades.
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movie_countries_world_map.html" width="100%" height="600" frameborder="0"></iframe>
 
-This map shows how movies addressing gender equality in the 1970s and 1980s were distributed globally. Countries like the United States and India were particularly active in exploring these themes through cinema, possibly reflecting their societal conversations around gender at the time. We can see how diverse the representation is, with contributions from regions like Europe, South America, and Asia, showing that gender equality was a shared concern across cultures.
+Look at this map! It shows how movies addressing gender equality in the 1970s and 1980s were distributed globally. That is amazing! Countries like the United States and India were particularly active in exploring these themes through cinema, possibly reflecting their societal conversations around gender at the time. We can see how diverse the representation is, with contributions from regions like Europe, South America, and Asia, showing that gender equality was a shared concern across cultures. 
+
+Let's get the Gadget List ready, here come some fun analyses!
 
 By analyzing the movies during these decades, we can extract four main themes: 
-1. Patriarchy and Resistance: showcasing women's resistance against societal norms, often through acts of defiance or rebellion.
-2. Intersection of Gender and Labor:  focus on women's economic struggles and their fight for labor rights
-3. Sexual Liberation and Autonomy: portraying women navigating personal freedoms in restrictive environments
-4. Feminist Activism
+1. Patriarchy and resistance: showcases women's resistance against societal norms, often through acts of defiance or rebellion.
+2. Intersection of gender and labor: focuses on women's economic struggles and their fight for labor rights.
+3. Sexual liberation and autonomy: portraying women navigating personal freedoms in restrictive environments.
+4. Feminist activism.
 
 **1940s**: The 1940s could reflect early explorations of gender roles during or post-World War II, where women entered the workforce and societal norms began to shift.
 
@@ -430,15 +432,14 @@ The themes in 1940s gender equality movies show how society was changing during 
 
 Patriotism and War Effort highlights women stepping into jobs and roles men left behind during the war, like working in factories, helping with the military, and volunteering. These stories show their strength and how they helped keep society stable while proving their abilities. This theme celebrates their patriotism and determination, paving the way for future gender equality movements. Overall, 1940s films captured a key moment in how women’s roles in society were evolving.
 
-By analyzing I extracted 5 main themes: 
-1. Gender Identity and LGBTQ+ Representation
-2. Feminism and Women's Empowerment
-3. Body Autonomy and Sexuality
-4. Human Trafficking and Exploitation
-5. Cultural and Social Intersectionality
+By analyzing this, we extracted 5 main themes: 
+1. Gender identity and LGBTQ+ representation
+2. Feminism and women's empowerment
+3. Body autonomy and sexuality
+4. Human trafficking and exploitation
+5. Cultural and social intersectionality
 
 This can be explained by several key points:
-
 - In this period, there was more acceptance and support for LGBTQ+ rights, with films exploring personal stories and struggles, influenced by the legalization of same-sex marriage and greater awareness.
 - Movements like #MeToo and body positivity brought attention to themes of consent, sexual freedom, and taking control of personal stories.
 - There was growing awareness of global human rights issues, which led to films addressing topics like trafficking and exploitation.
@@ -446,15 +447,17 @@ This can be explained by several key points:
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movie_countries_world_map_2010.html" width="100%" height="600" frameborder="0"></iframe>
 
-We also see that it affects the whole world!!
+Look at this plot! It shows that it affects the whole world!!
 
 ### Genres Analysis
 
 <iframe src="/assets/plots/gender_equality/gender_equality_overall_top_genres.html" width="100%" height="600" frameborder="0"></iframe>
 
-Drama takes the lead, likely because it dives into deep societal issues. Comedy approaches gender topics in a lighter, more accessible way. World cinema adds diverse cultural perspectives, while Romance highlights equality in love and relationships. LGBT-focused films show growing representation and support for inclusivity.
+Now, about genres, what will we observe? Drama takes the lead, likely because it dives into deep societal issues. Comedy approaches gender topics in a lighter, more accessible way. World cinema adds diverse cultural perspectives, while Romance highlights equality in love and relationships. And LGBT-focused films show growing representation and support for inclusivity.
 
 <iframe src="/assets/plots/gender_equality/gender_equality_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
+
+Let's dive now into the most interesting and surprising movies genres! Here is a Gadget List we constructed using the genres that caught our eye.
 
 #### LGBT
 
@@ -483,13 +486,13 @@ In the news dataset, we can find 1517 news related to the word "gay" and "lgbt" 
 
 In the 1970s, Japanese cinema explored themes of gender equality through bold narratives that highlighted societal issues and the struggles of women in patriarchal structures:
 
-1. Resistance Against Oppression: 
+1. Resistance against oppression: 
 The films often portrayed women resisting systemic discrimination and patriarchal structures. This mirrors the rise of feminist movements in Japan during the 1970s, which pushed for workplace equality, reproductive rights, and greater representation in a traditionally male-dominated society.
 
-2. Sexual Freedom and Choice: 
+2. Sexual freedom and choice: 
 Themes of women asserting control over their sexuality and decisions reflect societal shifts in Japan post-World War II. The country's rapid modernization and exposure to global ideas of individual freedom created a backdrop where traditional gender roles were increasingly questioned.
 
-3. Marginalization in a Patriarchal Society:
+3. Marginalization in a patriarchal society:
 Stories depicting women feeling trapped or marginalized in societal roles highlight the struggles of modernization. As Japan's economy boomed, women often faced a conflict between traditional expectations and new opportunities, leading to feelings of isolation and a re-evaluation of their societal roles.
 
 #### Predominence of Adult movies
@@ -504,7 +507,7 @@ In the NYT dataset, there are 1061 news containing the word "birth control" and 
 
 <iframe src="/assets/plots/gender_equality/gender_equality_movie_countries_world_map_world.html" width="100%" height="600" frameborder="0"></iframe>
 
-The main themes are Women’s Economic Independence, Opression resisting, sexual freedom, as explained before. \
+The main themes are women’s economic independence, opression resisting, sexual freedom, as explained before.
 However, we can see that France and India are the prominent countries.
 
 #### Romance
@@ -515,13 +518,13 @@ Romantic movies show key aspects of gender equality within relationships. These 
 
 <iframe src="/assets/plots/gender_equality/gender_equality_emotion_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
-We see a mix of emotions here. Trust and optimism shine through, showing progress and hope for gender equality. But there's also negativity, highlighting the struggles and oppression faced by gender minorities. Over the decades, feminism's growth is clear, with positive vibes leading the way. Still, anger and anticipation pick up in later years, reflecting the frustration and urgency for real change. It’s a balance of hope and fight, pushing toward a fairer world.
+What an interesting plot here! We see a mix of emotions here. Trust and optimism shine through, showing progress and hope for gender equality. But there's also negativity, highlighting the struggles and oppression faced by gender minorities. Over the decades, feminism's growth is clear, with positive vibes leading the way. Still, anger and anticipation pick up in later years, reflecting the frustration and urgency for real change. It’s a balance of hope and fight, pushing toward a fairer world.
 
 ### Sentiment Analysis
 
 <iframe src="/assets/plots/gender_equality/gender_equality_combined_sentiment_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-We can see the evolution of sentiment in gender equality movies by decade. Positive sentiment consistently dominates across all decades, indicating that these movies often focus on hopeful and empowering narratives. However, negative sentiment remains significant, reflecting the continuing struggles and challenges related to gender equality.
+This plot shows the evolution of sentiment in gender equality movies by decade. Positive sentiment consistently dominates across all decades, indicating that these movies often focus on hopeful and empowering narratives. Incredible! However, negative sentiment remains significant, reflecting the continuous struggles and challenges related to gender equality.
 
 Over time, there does not appear to be a dramatic shift in the ratio between positive and negative sentiments: thus, we can say that movies continuously address the systemic and societal issues tied to gender equality.
 
@@ -530,14 +533,24 @@ Over time, there does not appear to be a dramatic shift in the ratio between pos
   <iframe src="/assets/plots/gender_equality/gender_equality_top_movie_genres_by_positive_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
 </div>
 
-Drama takes the lead when it comes to showing the struggles and conflicts tied to gender equality. World and Comedy are also present, often using cultural or humorous angles to highlight challenges in a lighter way.
+Drama takes the lead when it comes to showing the struggles and conflicts tied to gender equality. World and Comedy are also present, often using cultural or humorous angles to highlight challenges in a lighter way. Quite fascinating!
 
-Drama also stands out for positive vibes, focusing on showing stories of progress and achievements. Comedy keeps it fun and approachable, addressing gender issues with humor, while Romance shows personal growth with love and equality. World cinema brings diverse cultural stories that inspire change.
+Drama also stands out for positive vibes, focusing on showing stories of progress and achievements. Comedy keeps it fun and approachable, addressing gender issues with humor, while Romance shows personal growth with love and equality. World cinema brings diverse cultural stories that inspire change. These are such interesting points of view to present the topic, aren't they?
 
 <iframe src="/assets/plots/gender_equality/gender_equality_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
 
 ### Conclusion
+
+This was such a nice ride full of analyses, wasn't it? Gender equality in movies has grown and changed over time, reflecting what’s happening in society and history. Movies tend to follow news by about 26 years, showing that it takes time for big ideas to make it into storytelling. While news reacts quickly, movies dig deeper and tell the stories in a way that lasts.
+
+The themes we see—like LGBTQ+ rights, feminism, and sexual freedom—show up a lot, with drama being the main genre. Drama deals with heavy subjects, comedy keeps it light and engaging, and world cinema brings different cultural views to the table. Romance shows love built on equality, breaking old-school gender roles.
+
+In the 1940s, movies explored women stepping into new roles during the war. By the 1970s and 1980s, feminist movements and LGBTQ+ stories took the spotlight. The 1960s brought themes of sexual freedom, inspired by things like the birth control pill and the sexual revolution.
+
+When it comes to emotions, there’s a mix. Positivity and hope stand out, but there’s also anger and frustration, especially as the fight for equality keeps going. 
+
+In the end, these movies are all about progress, resilience, and pushing for a fairer world, one story at a time. 
 
 
 
@@ -550,24 +563,24 @@ Drama also stands out for positive vibes, focusing on showing stories of progres
 
 <iframe src="/assets/plots/vietnam/vietnam_movies_and_news_frequency_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-Let's first talk about movies only. From both plots, we see a clear important presence of movies related to Vietnam war between 1960 and 1980, which corresponds well to the period of this war (1955 to 1975). We can note a bit of noise, since our model has detected movies similar to Vietnam war before it actually started. However, the strong presence of movies related to at the exact period of the war indicates the Vietnam war appeared significantly in movies or at least that there was a very strong increase in war movies in this perdiod. This suggests that many filmmakers and people wanted to the conflict represented on screen and talk about this war or war in general.
+For this topic about the Vietnam was, let's first talk about movies only. From both plots, we see a clear important presence of movies related to Vietnam war between 1960 and 1980, which corresponds well to the period of this war (1955 to 1975). Penny is here saying that there is a bit of noise, since our model has detected movies similar to Vietnam war before it actually started. However, the strong presence of movies related to the Vietnam war at the exact period of the war, indicates the it appeared significantly in movies-or at least that there was a very strong increase in war movies in this period. This suggests that many filmmakers and people wanted to present the conflict represented on screen and talk about this war in general.
 
 <iframe src="/assets/plots/vietnam/vietnam_movies_news_cross_correlation.html" width="100%" height="600" frameborder="0"></iframe>
 
 <iframe src="/assets/plots/vietnam/vietnam_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
 
-Observing the cross-correlation, it is clear that the evolution of the Vietnam War theme has similarities between news and movies. There is some strong noise data before 1950, when the war has not actually started. However, if we exclude that, both show a strong presence of the topic in the 1960s, with its prominence gradually decreasing over time. This reflect that the war is a current crisis, before rapidly decreasing and following the same trend as movies as the war become a past event. Overall, suggests that the topic was widely discussed in both news articles and cultural production (in this case movies) while the events were currently happening. The cross-correlation has an optimal shift of 0 years, which suggest trends supports the hypothesis that wars are more represented in movies while they remain hot topics, but are addressed less frequently as they fades and they become more distant in public memory. In this case, news and movies address the issue at the same time.
+Now let's take a look togetger at the cross-correlation plot! It is clear that the evolution of the Vietnam War theme is similar between news and movies. There is some strong noise data before 1950, when the war has not actually started. However, if we exclude that, both show a strong presence of the topic in the 1960s, with its prominence gradually decreasing over time. Interesting, right? This reflects that the war is a current crisis, before rapidly decreasing and following the same trend as movies as the war becomes a past event. Overall, the plot suggests that the topic was widely discussed in both news articles and cultural production (in our case movies), while the events were currently happening. The cross-correlation has an optimal shift of 0 year, which supports the hypothesis that wars are more represented in movies while they remain hot topics, but are addressed less frequently as time fades and they become more distant in public memory. In this case, news and movies address the issue at the same time. That is fascinating!
 
 
 ### Genres Analysis
 
 <iframe src="/assets/plots/vietnam/vietnam_overall_top_genres.html" width="100%" height="600" frameborder="0"></iframe>
 
-The most important genres about Vietnam war are Drama, Action/Aventure and War, which is what we could expact for movies about a war or its context. Comedy comes 4th which can mean there is still a relative strong need to dedramatize it, even though it remains treated more as a serious topic as suggested by the 3 first genres. Another interesting thing to note is the presence of chinese movies, which is linked to China’s involvement in the Vietnam War and thus the country also had stories to tell from their side. Overall, we have a pretty good representation of how a war can be treated in movies.
+About the genres, the most important ones about Vietnam war are Drama, Action/Aventure and War. Not really surprising considering the context right? Comedy comes 4th, which can mean that there still is a relative strong need to dedramatize it, even though it remains treated more as a serious topic as suggested by the three first genres. Here! Another interesting point to note is the presence of Chinese movies, which is linked to China’s involvement in the Vietnam War and thus the country also had stories to tell from their side. Overall, we have a pretty good representation of how a war can be treated in movies. Don't you agree?
 
 <iframe src="/assets/plots/vietnam/vietnam_top_genres_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-We observe that war is present all periods that concerns directly the Vietnam war as well as Drama and Action/Adventure. These are constants for a Vietnam war film. A important things to notice is the place reserved for comedies and other fun genre such as parody. These are not very present during the actual years of the war (1950s, 1960s and 1970s) but they become more frequent in the decades that follow, which could indicate that we it is difficult to laugh of a tragic event while it is happening, but it becomes more and more possible as the event is further in the past.
+Here, it's worth observing that war is present in all periods that concern directly the Vietnam war as well as Drama and Action/Adventure. These are constant for a Vietnam war film. Another important thing to notice is the place reserved for comedies and other fun genres such as parody. Intriguing... These are not very present during the actual years of the war (1950s, 1960s and 1970s) but they become more frequent in the decades that follow, which could indicate that it is difficult to laugh of a tragic event while it is happening, but it becomes more and more possible as the event is further in the past. Fascinating!
 
 
 
@@ -575,29 +588,29 @@ We observe that war is present all periods that concerns directly the Vietnam wa
 
 <iframe src="/assets/plots/vietnam/vietnam_emotion_counts.html" width="100%" height="600" frameborder="0"></iframe>
 
-Not suprisingly, negative emotions dominates positives ones for Vietnam war films with fear being very high. It is expected for movies talking about war and crude realities of death, violence or trauma. Positive emotiosns are also well present. This could be because war movies also tend to represent a bit of positivity inside the atrocities of war such as friendship and camaraderie between soldiers and may explain why trust is relatively high. 
+Not suprisingly, negative emotions dominate positive ones for Vietnam war films with fear being very high. It is expected for movies talking about war and crude realities of death, violence or trauma. Positive emotions are also well present. This could be because war movies also tend to represent a bit of positivity inside the atrocities of war such as friendship and camaraderie between soldiers. Can this be a reason why trust is relatively high? It's highly possible.
 
 <iframe src="/assets/plots/vietnam/vietnam_emotion_counts_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-We note that positive emotions tend to increase over time, while negative emotions decrease. This could suggest that as tragic events such the Vietnam War, become more distant in the past, their portrayal shifts, focusing less on its horrors and dedramatizing . Similarly, trust shows an upward trend over time, while anger diminishes. The representation of the war appears to become less raw over time and less focused on negative aspects, possibly because the emotional impact of the war is less important for audiences who are no longer directly affected by it.
+We note that positive emotions tend to increase over time, while negative emotions decrease. This could suggest that as tragic events such as the Vietnam War, become more distant in the past, their portrayal shifts, focusing less on its horrors and dedramatizing it. Similarly, trust shows an upward trend over time, while anger diminishes. The representation of the war appears to become less raw over time and less focused on negative aspects. Why? Possibly because the emotional impact of the war is less important for an audience who feels less related to it.
 
 ### Sentiment Analysis
 
 <iframe src="/assets/plots/vietnam/vietnam_combined_sentiment_by_decade.html" width="100%" height="600" frameborder="0"></iframe>
 
-Negative and positive emotions remain relatively constant over time, which suggests that, regardless of the period, war will always be portrayed as something deeply negative, which makes sense.
+Negative and positive emotions remain relatively constant over time, which suggests that, regardless of the period, war will always be portrayed as something deeply negative. That makes sense!
 
 <div style="display: flex; gap: 10px;">
   <iframe src="/assets/plots/gender_equality/gender_equality_top_movie_genres_by_negative_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
   <iframe src="/assets/plots/gender_equality/gender_equality_top_movie_genres_by_positive_sentiment.html" width="100%" height="600" frameborder="0"></iframe>
 </div>
 
-The most noticeable changes between these graphs are the swaped positions between Comedy, Action/Adventure and War. In negative sentiments, Comedy plays a much smaller role, while War and Action/Adventure genres are predominant. So, obviously movies that focus on depicting war itself in its tough realities are far more negative than those that turn it into comedies, where the action/war side is less important, but that is common sense.
+The most noticeable changes between these graphs are the swaped positions between Comedy, Action/Adventure and War. In negative sentiments, Comedy plays a much smaller role, while War and Action/Adventure genres are predominant. So, obviously movies that focus on depicting war itself in its tough realities are far more negative than those that turn it into comedies, where the action/war side is less important. Again, that seems to make sense!
 
 
 <iframe src="/assets/plots/vietnam/vietnam_sunburst_genres_sentiment_emotions.html" width="100%" height="600" frameborder="0"></iframe>
 
-All genres are associated with more negative than positive sentiments. The most negative one is War while other genres, such as Drama or Action are less association with negativity, maybe focusing more on positive sides like brotherhood, courage or hope. Comedy is the only one that has more positive than negative but not by a significant amount, which suggest that event in comedies, Vietnam War is treated as something very serious and dark.
+All genres are associated with more negative than positive sentiments. The most negative one is War while other genres, such as Drama or Action are less associated with negativity, maybe focusing more on positive sides like brotherhood, courage or hope. Comedy is the only one that has more positive than negative but not by a significant amount, which suggests that event in comedies, Vietnam War is treated as something very serious and dark.
 
 
 
