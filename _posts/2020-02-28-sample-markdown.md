@@ -43,50 +43,31 @@ author: Bill Smith
 
 ### First tabs
 
-{% tabs log %}
+<div class="tab-container">
+  <ul class="tabs">
+    <li class="tab active" onclick="openTab(event, 'tab1')">Tab 1</li>
+    <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
+    <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
+  </ul>
 
-{% tab log php %}
-```php
-var_dump('hello');
-```
-{% endtab %}
+  <div id="tab1" class="tab-content active">
+    <h2>Content for Tab 1</h2>
+    <p>This is the content for the first tab.</p>
+  </div>
 
-{% tab log js %}
-```javascript
-console.log('hello');
-```
-{% endtab %}
+  <div id="tab2" class="tab-content">
+    <h2>Content for Tab 2</h2>
+    <p>This is the content for the second tab.</p>
+  </div>
 
-{% tab log ruby %}
-```javascript
-pputs 'hello'
-```
-{% endtab %}
+  <div id="tab3" class="tab-content">
+    <h2>Content for Tab 3</h2>
+    <p>This is the content for the third tab.</p>
+  </div>
+</div>
 
-{% endtabs %}
-
-### Second tabs
-
-{% tabs data-struct %}
-
-{% tab data-struct yaml %}
-```yaml
-hello:
-  - 'whatsup'
-  - 'hi'
-```
-{% endtab %}
-
-{% tab data-struct json %}
-```json
-{
-    "hello": ["whatsup", "hi"]
-}
-```
-{% endtab %}
-
-{% endtabs %}
-
+<script src="{{ 'assets/js/beautifuljekyll.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ 'assets/css/custom-styles.css' | relative_url }}">
 
 
 
