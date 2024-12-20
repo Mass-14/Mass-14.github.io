@@ -86,22 +86,16 @@ As a dedicated team of inspectors, we gladly accept this challenge! Let’s get 
 ## Datasets
 
 Team, listen closely! This is a top priority mission, and we have two powerful datasets in our Gadget Mallet to accomplish our task. Pay attention because these resources are our lifeline!
-
-### First Dataset: The CMU Movies Summary Corpus
-
+#### First Dataset: The CMU Movies Summary Corpus
 From Carnegie Mellon University, we got our hands on the Movies Summary Corpus. This dataset contains 81'741 movies documented up until the year 2012. It’s a really rich source of information, folks! The movies metadata seems to be of great interest for your mission. Here is what you can find in this toolkit: movie titles, release dates, countries of production, genres and plot summaries. You have access to the plot summaries of a total of 42’306 movies, which is perfect to detect relevant topics!
 Use them all wisely!
-
-### Second Dataset: The New York Times Articles
-
-Straight from Kaggle, we found an impressive New York Times dataset (https://www.kaggle.com/datasets/tumanovalexander/nyt-articles-data). This dataset covers news from 1920 to 2020, which represent an entire century of newsworthy moments. Here is what it gives us:
-
+#### Second Dataset: The New York Times Articles
+Straight from Kaggle, we found an impressive ![New York Times dataset](https://www.kaggle.com/datasets/tumanovalexander/nyt-articles-data). This dataset covers news from 1920 to 2020, which represent an entire century of newsworthy moments. Here is what it gives us:
 - Publication year of each article.
 - Article titles: a clear overview on subjects making headlines.
 - Excerpts: little snippets of the articles.
 
 This is a massive resource full of insights. 
-
 Together, these datasets are a dynamic duo, ready to help us achieve our mission!
 
 So, team, let’s stay sharp and stay focused! I am counting on you to deliver good results. Dismissed!
