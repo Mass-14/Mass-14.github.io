@@ -85,10 +85,26 @@ As a dedicated team of inspectors, we gladly accept this challenge! Let’s get 
 
 ## Datasets
 
-Lets decribe the datasets our chief gave us to accomplish our difficult mission.
-The first dataset is the CMU Movies Summary Corpus dataset. The movies metadata seemed to be of great interest for our task. It contains 81’741 movies up to 2012. We now have movies names, their dates of release, their countries of production and their genres in our toolkit. We have also access to the plot summaries of 42’306 movies, perfect to detect relevant topics !  
-The second one as our disposition is a dataset from the New York times obtained from kaggle: https://www.kaggle.com/datasets/tumanovalexander/nyt-articles-data. The dataset is big and covers the year, title and and excerpt of news from 1920-2020. It certainly offers a valuable resource to analyze the presence of themes over the years. 
+Team, listen closely! This is a top priority mission, and we have two powerful datasets in our Gadget Mallet to accomplish our task. Pay attention because these resources are our lifeline!
 
+### First Dataset: The CMU Movies Summary Corpus
+
+From Carnegie Mellon University, we got our hands on the Movies Summary Corpus. This dataset contains 81'741 movies documented up until the year 2012. It’s a really rich source of information, folks! The movies metadata seems to be of great interest for your mission. Here is what you can find in this toolkit: movie titles, release dates, countries of production, genres and plot summaries. You have access to the plot summaries of a total of 42’306 movies, which is perfect to detect relevant topics!
+Use them all wisely!
+
+### Second Dataset: The New York Times Articles
+
+Straight from Kaggle, we found an impressive New York Times dataset (https://www.kaggle.com/datasets/tumanovalexander/nyt-articles-data). This dataset covers news from 1920 to 2020, which represent an entire century of newsworthy moments. Here is what it gives us:
+
+- Publication year of each article.
+- Article titles: a clear overview on subjects making headlines.
+- Excerpts: little snippets of the articles.
+
+This is a massive resource full of insights. 
+
+Together, these datasets are a dynamic duo, ready to help us achieve our mission!
+
+So, team, let’s stay sharp and stay focused! I am counting on you to deliver good results. Dismissed!
 
 <br>
 
