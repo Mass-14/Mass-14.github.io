@@ -305,16 +305,12 @@ However, we can see that France and India are the prominent countries.</p>
 
 
 <h3 id="conclusion">Conclusion</h3>
-<p>This was such a nice ride full of analyses, wasn&#39;t it? Gender equality in movies has grown and changed over time, reflecting what’s happening in society and history. Movies tend to follow news by about 26 years, showing that it takes time for big ideas to make it into storytelling. While news reacts quickly, movies dig deeper and tell the stories in a way that lasts.</p>
+<p>This was such a nice ride full of analyses, wasn&#39;t it? Gender equality in movies has grown and changed over time, reflecting what’s happening in society and history. Movies seem to be ahead of their time, with news catching up about 26 years later. This happens because movies, especially independent ones, often push boundaries and explore new ideas long before they become mainstream topics. Filmmakers tend to reflect societal undercurrents or challenge norms, acting as visionaries</p>
 <p>The themes we see—like LGBTQ+ rights, feminism, and sexual freedom—show up a lot, with drama being the main genre. Drama deals with heavy subjects, comedy keeps it light and engaging, and world cinema brings different cultural views to the table. Romance shows love built on equality, breaking old-school gender roles.</p>
 <p>In the 1940s, movies explored women stepping into new roles during the war. By the 1970s and 1980s, feminist movements and LGBTQ+ stories took the spotlight. The 1960s brought themes of sexual freedom, inspired by things like the birth control pill and the sexual revolution.</p>
 <p>When it comes to emotions, there’s a mix. Positivity and hope stand out, but there’s also anger and frustration, especially as the fight for equality keeps going. </p>
-<p>In the end, these movies are all about progress, resilience, and pushing for a fairer world, one story at a time. </p>
-
-  
-
-
-  </div>
+<p>In the end, these movies are all about progress, resilience, and pushing for a fairer world, one story at a time.</p>
+</div>
 
   <div id="tab3" class="tab-content"> 
   <!-- Technology -->
@@ -416,7 +412,7 @@ However, we can see that France and India are the prominent countries.</p>
 
   </div>  
   
-  <div id="tab5" class="tab-content"> 
+    <div id="tab5" class="tab-content"> 
   <!-- Cold War -->
    
    <h2 id="cold-war">Cold War</h2>
@@ -427,11 +423,13 @@ However, we can see that France and India are the prominent countries.</p>
 <iframe src="/assets/plots/cold_war/cold_war_movies_news_interactive_lag.html" width="100%" height="600" frameborder="0"></iframe>
 
 <p>Surprising findings here, look! There is a lag of 16 years between the movies and news related to cold war. It means that there are 16 years difference for both of them to align thematically. Let me get my Gadget List and see the possible reasons:</p>
+<p>Cold War movies appear before the news because of several reasons:</p>
 <ul>
-<li>Movies often serve as a medium for processing historical and geopolitical events years after the events have passed.</li>
-<li>Historical distance: a lag allows new perspectives to emerge, moving beyond immediate reactions to provide deeper or more nuanced storytelling.</li>
-<li>The patterns confirm that significant geopolitical events inspire filmmakers, creating a relationship where news inform art.</li>
+<li>URSS is associated to Cold War, movies about URSS are often categoralised as Cold War</li>
+<li>Filmmakers may foresee and dramatize potential conflicts or societal changes</li>
+<li>Movies can capture underlying anxieties or themes circulating in society before they appear in the news</li>
 </ul>
+
 <p>Look, the plot is clickable. Let&#39;s click now on the news legend to see only the evolution of the movies frequency, and let us dive together into more detail.</p>
 <p><strong>1943</strong>: During this year, the themes are Anti-Nazi and positive towards the USSR.</p>
 <p><strong>1960s and 1970s</strong>: <br>
@@ -511,7 +509,7 @@ The emotions and sentiments in Cold War-themed movies, while varied, often highl
 
 
 
-  </div>  
+  </div>    
   
   <div id="tab6" class="tab-content"> 
   <!-- Vietnam War -->
