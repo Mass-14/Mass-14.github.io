@@ -117,6 +117,32 @@ Let's be strategic and proceed in the following way: <br>
 Now we are ready to investigate for our mission through data analysis!
 
 
+<div class="tab-container">
+  <ul class="tabs">
+    <li class="tab active" onclick="openTab(event, 'tab1')">Tab 1</li>
+    <li class="tab" onclick="openTab(event, 'tab2')">Tab 2</li>
+    <li class="tab" onclick="openTab(event, 'tab3')">Tab 3</li>
+  </ul>
+
+  <div id="tab1" class="tab-content active">
+    <h2>Content for Tab 1</h2>
+    <p>This is the content for the first tab.</p>
+  </div>
+
+  <div id="tab2" class="tab-content">
+    <h2>Content for Tab 2</h2>
+    <p>This is the content for the second tab.</p>
+  </div>
+
+  <div id="tab3" class="tab-content">
+    <h2>Content for Tab 3</h2>
+    <p>This is the content for the third tab.</p>
+  </div>
+</div>
+
+<script src="{{ 'assets/js/scripts.js' | relative_url }}"></script>
+
+
 ## Health theme
 
 
