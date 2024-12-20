@@ -35,7 +35,7 @@ author: Bill Smith
     </div>
 </div>
 
-<script src="scripts.js"></script> <!-- Link to your JS file -->
+<script src="assets/js/beautifuljekyll.js"></script> <!-- Link to your JS file -->
 
 
 
